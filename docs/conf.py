@@ -5,7 +5,7 @@ copyright = "2023, Wouter Vanden Hove"
 extensions = [
     "sphinx.ext.autodoc",
     "sphinx.ext.napoleon",
-    "sphinx_click",
+    # "sphinx_click",
     "myst_parser",
 ]
 autodoc_typehints = "description"
