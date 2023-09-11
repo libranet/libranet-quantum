@@ -28,7 +28,9 @@
 /lib64
 /pyvenv.cfg
 
+# generated symlink
 etc/qiskit/qiskit-ibm.json
+
 # exclude actual virtual-environment
 /.venv/
 
