@@ -4475,6 +4475,21 @@ toqm = ["qiskit-toqm (>=0.1.0)"]
 visualization = ["ipywidgets (>=7.3.0)", "matplotlib (>=3.3)", "pillow (>=4.2.1)", "pydot", "pygments (>=2.4)", "pylatexenc (>=1.4)", "seaborn (>=0.9.0)"]
 
 [[package]]
+name = "qunix-tools"
+version = "0.1.5.2"
+description = "Library of unix-like python programs related to Qiskit"
+category = "main"
+optional = false
+python-versions = "*"
+files = [
+    {file = "qunix-tools-0.1.5.2.tar.gz", hash = "sha256:cb1d952cc26b155993b39073337059b5eabef69ec8869f1aec0c5b9fb8f04297"},
+    {file = "qunix_tools-0.1.5.2-py3-none-any.whl", hash = "sha256:24f998677b1cfbd9a88ae323131de950a61c62db7ae4f6f0a23b4d03bf2e8d74"},
+]
+
+[package.dependencies]
+qiskit = ">=0.16.2"
+
+[[package]]
 name = "readme-renderer"
 version = "42.0"
 description = "readme_renderer is a library for rendering readme descriptions for Warehouse"
@@ -5971,4 +5986,4 @@ testing = ["coverage (>=5.0.3)", "zope.event", "zope.testing"]
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.10.0,<4.0"
-content-hash = "3704be51ea931c7d7c3bd912796d9effc7140b7646a3792cd966008ea0ea5632"
+content-hash = "df98da72d08d4d79d2b7aff004752091c6cf39c98dc93db7d7fcb9432dffe43b"
