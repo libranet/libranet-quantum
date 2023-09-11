@@ -29,7 +29,8 @@ from qiskit import IBMQ
 TOKEN = os.getenv("API_TOKEN_IBM")
 
 qiskit_ibm_provider.IBMProvider.save_account(TOKEN)
-qiskit_ibm_provider.IBMProvider.load_account()
+# qiskit_ibm_provider.IBMProvider.load_account()
+qiskit_ibm_provider.IBMProvider()
 
 
 # storage.read_config:DEBUG:2023-09-08 22:19:54,953: Read configuration data for 'None' from '/home/wouter/.qiskit/qiskit-ibm.json'
@@ -38,6 +39,7 @@ qiskit_ibm_provider.IBMProvider.load_account()
 
 
 
+# qiskit_ibm_provider.IBMProvider.saved_accounts()
 
 from qiskit import QuantumCircuit
 qc = QuantumCircuit(2, 2)

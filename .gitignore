@@ -28,6 +28,7 @@
 /lib64
 /pyvenv.cfg
 
+etc/qiskit/qiskit-ibm.json
 # exclude actual virtual-environment
 /.venv/
 

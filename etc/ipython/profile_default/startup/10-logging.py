@@ -25,7 +25,8 @@ import libranet_logging
 # import demo_flask.cfg as cfg
 
 # setup the logging according to etc/logging.yml
-libranet_logging.initialize()
+logging_yml = os.getenv("LOGGING_YML_FILE")
+libranet_logging.initialize(path=logging_yml)
 
 log = logging.getLogger("ipython-startup")  # name = "__main__"
 

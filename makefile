@@ -29,6 +29,9 @@ install: create-dirs create-dirs-extra dotenv-install poetry-install symlink-ven
 create-dirs-extra:
 	- mkdir var/notebooks
 
+.PHONY: create-symlinks-extra  ##
+create-symlinks-extra:
+	- cd etc/qiskit && ln -s ~/.qiskit/qiskit-ibm.json
 
 .PHONY: install-dev  ## development installation
 install-dev: git-init precommit-install-hook install
