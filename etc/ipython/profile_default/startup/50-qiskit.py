@@ -28,7 +28,11 @@ from qiskit import IBMQ
 
 TOKEN = os.getenv("API_TOKEN_IBM")
 
-qiskit_ibm_provider.IBMProvider.save_account(TOKEN)
+try:
+    qiskit_ibm_provider.IBMProvider.save_account(TOKEN)
+except AccountAlreadyExistsError:
+    pass
+
 # qiskit_ibm_provider.IBMProvider.load_account()
 qiskit_ibm_provider.IBMProvider()
 
