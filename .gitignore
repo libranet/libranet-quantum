@@ -29,7 +29,7 @@
 /pyvenv.cfg
 
 # generated symlink
-etc/qiskit/qiskit-ibm.json
+etc/quantum/quantum-ibm.json
 
 # exclude actual virtual-environment
 /.venv/

@@ -1,21 +1,21 @@
-# libranet-qiskit
+# libranet-quantum
 
-[![PyPI](https://img.shields.io/pypi/v/libranet-qiskit.svg)][pypi status]
-[![Status](https://img.shields.io/pypi/status/libranet-qiskit.svg)][pypi status]
-[![Python Version](https://img.shields.io/pypi/pyversions/libranet-qiskit)][pypi status]
-[![License](https://img.shields.io/pypi/l/libranet-qiskit)][license]
+[![PyPI](https://img.shields.io/pypi/v/libranet-quantum.svg)][pypi status]
+[![Status](https://img.shields.io/pypi/status/libranet-quantum.svg)][pypi status]
+[![Python Version](https://img.shields.io/pypi/pyversions/libranet-quantum)][pypi status]
+[![License](https://img.shields.io/pypi/l/libranet-quantum)][license]
 
-[![Read the documentation at https://libranet-qiskit.readthedocs.io/](https://img.shields.io/readthedocs/libranet-qiskit/latest.svg?label=Read%20the%20Docs)][read the docs]
-[![Tests](https://github.com/woutervh/libranet-qiskit/workflows/Tests/badge.svg)][tests]
-[![Codecov](https://codecov.io/gh/woutervh/libranet-qiskit/branch/main/graph/badge.svg)][codecov]
+[![Read the documentation at https://libranet-quantum.readthedocs.io/](https://img.shields.io/readthedocs/libranet-quantum/latest.svg?label=Read%20the%20Docs)][read the docs]
+[![Tests](https://github.com/woutervh/libranet-quantum/workflows/Tests/badge.svg)][tests]
+[![Codecov](https://codecov.io/gh/woutervh/libranet-quantum/branch/main/graph/badge.svg)][codecov]
 
 [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)][pre-commit]
 [![Black](https://img.shields.io/badge/code%20style-black-000000.svg)][black]
 
-[pypi status]: https://pypi.org/project/libranet-qiskit/
-[read the docs]: https://libranet-qiskit.readthedocs.io/
-[tests]: https://github.com/woutervh/libranet-qiskit/actions?workflow=Tests
-[codecov]: https://app.codecov.io/gh/woutervh/libranet-qiskit
+[pypi status]: https://pypi.org/project/libranet-quantum/
+[read the docs]: https://libranet-quantum.readthedocs.io/
+[tests]: https://github.com/woutervh/libranet-quantum/actions?workflow=Tests
+[codecov]: https://app.codecov.io/gh/woutervh/libranet-quantum
 [pre-commit]: https://github.com/pre-commit/pre-commit
 [black]: https://github.com/psf/black
 
@@ -29,10 +29,10 @@
 
 ## Installation
 
-You can install _libranet_qiskit_ via [pip] from [PyPI]:
+You can install _libranet_quantum_ via [pip] from [PyPI]:
 
 ```console
-$ pip install libranet-qiskit
+$ pip install libranet-quantum
 ```
 
 ## Usage
@@ -47,7 +47,7 @@ To learn more, see the [Contributor Guide].
 ## License
 
 Distributed under the terms of the [MIT license][license],
-_libranet-qiskit_ is free and open source software.
+_libranet-quantum_ is free and open source software.
 
 ## Issues
 
@@ -61,11 +61,11 @@ This project was generated from [@libranet]'s [Kickstart Python Project] templat
 [@libranet]: https://github.com/libranet
 [pypi]: https://pypi.org/
 [kickstatr python project]: https://github.com/libranet/kickstart-python-project
-[file an issue]: https://github.com/woutervh/libranet-qiskit/issues
+[file an issue]: https://github.com/woutervh/libranet-quantum/issues
 [pip]: https://pip.pypa.io/
 
 <!-- github-only -->
 
-[license]: https://github.com/woutervh/libranet-qiskit/blob/main/docs/license.md
-[contributor guide]: https://github.com/woutervh/libranet-qiskit/blob/main/docs/contributing.md
-[command-line reference]: https://libranet-qiskit.readthedocs.io/en/latest/usage.html
+[license]: https://github.com/woutervh/libranet-quantum/blob/main/docs/license.md
+[contributor guide]: https://github.com/woutervh/libranet-quantum/blob/main/docs/contributing.md
+[command-line reference]: https://libranet-quantum.readthedocs.io/en/latest/usage.html

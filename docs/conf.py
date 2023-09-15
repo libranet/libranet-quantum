@@ -1,5 +1,5 @@
 """Sphinx configuration."""
-project = "libranet-qiskit"
+project = "libranet-quantum"
 author = "Wouter Vanden Hove"
 copyright = "2023, Wouter Vanden Hove"
 extensions = [

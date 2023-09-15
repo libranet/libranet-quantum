@@ -31,7 +31,7 @@ create-dirs-extra:
 
 .PHONY: create-symlinks-extra  ##
 create-symlinks-extra:
-	- cd etc/qiskit && ln -s ~/.qiskit/qiskit-ibm.json
+	- cd etc/quantum && ln -s ~/.quantum/quantum-ibm.json
 
 .PHONY: install-dev  ## development installation
 install-dev: git-init precommit-install-hook install
@@ -44,3 +44,9 @@ install-prd: create-dirs dotenv-install poetry-install
 .PHONY: post-install  ## post-install steps
 post-install:
 	# bin/pip install -e var/src/<dependent-package>
+
+
+.PHONY: clean  ## 
+clean:
+	- rm -fr .venv
+	- rm -fr bin lib lib64 pyvenv.cfg

@@ -62,7 +62,7 @@ include = ["src/*"]
 [tool.coverage.run]
 branch = true
 data_file = "var/coverage/coverage.db"
-source = ["libranet_qiskit", "tests"]
+source = ["libranet_quantum", "tests"]
 
 
 [tool.flake8]
@@ -107,7 +107,7 @@ envdir = "var/cache/nox"
 
 
 [tool.poetry]
-name = "libranet-qiskit"
+name = "libranet-quantum"
 version = "0.1"
 license = "MIT"
 # license = { text = "MIT" }
@@ -115,12 +115,12 @@ description = "Learning-environment to lern about quantum computing using Qiskit
 readme = "docs/readme.md"
 authors = ["Wouter Vanden Hove <wouter@libranet.eu>"]
 maintainers = ["Wouter Vanden Hove <wouter@libranet.eu>"]
-homepage = "https://github.com/woutervh/libranet-qiskit"
-repository = "https://github.com/woutervh/libranet-qiskit"
-documentation = "https://libranet-qiskit.readthedocs.io"
+homepage = "https://github.com/libranet/libranet-quantum"
+repository = "https://github.com/libranet/libranet-quantum"
+documentation = "https://libranet-quantum.readthedocs.io"
 
 keywords = []
-packages = [{ include = "libranet_qiskit", from = "src" }]
+packages = [{ include = "libranet_quantum", from = "src" }]
 classifiers = [
     "Development Status :: 4 - Beta",
     "Environment :: Console",
@@ -148,6 +148,7 @@ qiskit-aer = ">=0.12.2"
 # qiskit-aer-gpu = ">=0.12.2"
 qiskit-ibm-provider = ">=0.7.0"
 qunix-tools = ">=0.1.5.2"
+cirq-google = "^1.2.0"
 
 
 [tool.poetry.group.dev.dependencies]
@@ -235,14 +236,14 @@ types-toml = ">=0.10"
 
 
 [tool.poetry.scripts]
-libranet-qiskit = "libranet_qiskit.cli:app"
+libranet-quantum = "libranet_quantum.cli:app"
 
 [tool.poetry.urls]
-"Repository" = "https://github.com/woutervh/libranet-qiskit"
-"Changelog" = "https://github.com/woutervh/libranet-qiskit/docs/changes.md"
-"Issues" = "https://github.com/woutervh/libranet-qiskit/issues"
-"Releases" = "https://github.com/woutervh/libranet-qiskit/releases"
-"Docs" = "https://libranet-qiskit.readthedocs.io"
+"Repository" = "https://github.com/woutervh/libranet-quantum"
+"Changelog" = "https://github.com/woutervh/libranet-quantum/docs/changes.md"
+"Issues" = "https://github.com/woutervh/libranet-v/issues"
+"Releases" = "https://github.com/woutervh/libranet-quantum/releases"
+"Docs" = "https://libranet-quantum.readthedocs.io"
 
 
 # [tool.poetry2conda]
@@ -259,7 +260,7 @@ style = "semver"
 
 [tool.poetry-dynamic-versioning.substitution]
 files = [
-    "src/libranet_qiskit/__init__.py",
+    "src/libranet_quantum/__init__.py",
     "src/*/__version__.py",
     "docs/changes.md",
 ]
@@ -268,12 +269,12 @@ files = [
 [tool.poetry.plugins] # Optional super table
 # [tool.poetry.plugins."sitecustomize"]
 # https://sitecustomize-entrypoints.readthedocs.io/en/stable/
-# libranet_qiskit_foo = "libranet_qiskit:entrypoint"
+# libranet_quantum_foo = "libranet_quantum:entrypoint"
 
 [tool.poetry-release]
 release-replacements = [
     { file = "docs/changes.md", pattern = "TBD \\(Unreleased\\)", replace = "{version} \\({date}\\)" },
-    { file = "src/libranet_qiskit/__init__.py", pattern = '__version__ = "{version}"', replace = '__version__ = "{next_version}"' },
+    { file = "src/libranet_quantum/__init__.py", pattern = '__version__ = "{version}"', replace = '__version__ = "{next_version}"' },
     # { file="CHANGELOG.md", pattern="\\(https://semver.org/spec/v2.0.0.html\\).", replace="(https://semver.org/spec/v20.0.html).\n\n## [Unreleased]"},
 ]
 disable-push = false

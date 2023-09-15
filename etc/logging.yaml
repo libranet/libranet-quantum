@@ -174,9 +174,9 @@ handlers:
         filename: "40-errors.log"
         level: "ERROR"
 
-    libranet_qiskit_file:
+    libranet_quantum_file:
         <<: *default
-        filename: "libranet-qiskit.log"
+        filename: "libranet-quantum.log"
         formatter: "generic"
         level: "DEBUG"
 
@@ -212,10 +212,10 @@ loggers:
     blib2to3:
         level: !env LOGLEVEL_BLIB2TO3, NOTSET
 
-    libranet_qiskit:
-        level: !env LOGLEVEL_LIBRANET_QISKIT, NOTSET
+    libranet_quantum:
+        level: !env LOGLEVEL_LIBRANET_quantum, NOTSET
         handlers:
-            - libranet_qiskit_file
+            - libranet_quantum_file
 
     dotenv:
         level: !env LOGLEVEL_DOTENV, NOTSET
@@ -256,11 +256,11 @@ loggers:
     py.warnings: # triggered by deprecation-warnings
         level: !env LOGLEVEL_PY_WARNINGS, NOTSET
 
-    qiskit:
-        level: !env LOGLEVEL_QISKIT, NOTSET
+    quantum:
+        level: !env LOGLEVEL_quantum, NOTSET
 
-    qiskit.transpiler:
-        level: !env LOGLEVEL_QISKIT_TRANSPILER, NOTSET
+    quantum.transpiler:
+        level: !env LOGLEVEL_quantum_TRANSPILER, NOTSET
 
     requests:
         level: !env LOGLEVEL_REQUESTS, NOTSET

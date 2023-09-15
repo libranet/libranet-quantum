@@ -30,7 +30,8 @@ TOKEN = os.getenv("API_TOKEN_IBM")
 
 try:
     qiskit_ibm_provider.IBMProvider.save_account(TOKEN)
-except AccountAlreadyExistsError:
+# except AccountAlreadyExistsError:
+except Exception as exc:
     pass
 
 # qiskit_ibm_provider.IBMProvider.load_account()
@@ -39,7 +40,7 @@ qiskit_ibm_provider.IBMProvider()
 
 # storage.read_config:DEBUG:2023-09-08 22:19:54,953: Read configuration data for 'None' from '/home/wouter/.qiskit/qiskit-ibm.json'
 # storage._ensure_file_exists:DEBUG:2023-09-08 22:19:54,953: Create empty configuration file at /home/wouter/.qiskit/qiskit-ibm.json
-# storage.save_config:DEBUG:2023-09-08 22:19:54,954: Save configuration data for 'default-ibm-quantum' in '/home/wouter/.qiskit/qiskit-ibm.json'
+# storage.save_config:DEBUG:2023-09-08 22:19:54,954: Save configuration data for 'default-ibm-qiskit' in '/home/wouter/.qiskit/qiskit-ibm.json'
 
 
 
