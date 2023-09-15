@@ -142,13 +142,13 @@ classifiers = [
 [tool.poetry.dependencies]
 python = ">=3.10.0,<4.0"
 autoread-dotenv = ">=0.0"
+cirq-google = ">=1.2.0"
 libranet-logging = ">=0.0"
 qiskit = {extras = ["visualization"], version = ">=0.44.1"}
 qiskit-aer = ">=0.12.2"
 # qiskit-aer-gpu = ">=0.12.2"
 qiskit-ibm-provider = ">=0.7.0"
 qunix-tools = ">=0.1.5.2"
-cirq-google = "^1.2.0"
 
 
 [tool.poetry.group.dev.dependencies]
