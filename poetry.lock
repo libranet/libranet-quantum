@@ -5477,13 +5477,13 @@ test = ["argcomplete (>=3.0.3)", "mypy (>=1.7.0)", "pre-commit", "pytest (>=7.0,
 
 [[package]]
 name = "trove-classifiers"
-version = "2023.10.18"
+version = "2023.11.29"
 description = "Canonical source for classifiers on PyPI (pypi.org)."
 optional = false
 python-versions = "*"
 files = [
-    {file = "trove-classifiers-2023.10.18.tar.gz", hash = "sha256:2cdfcc7f31f7ffdd57666a9957296089ac72daad4d11ab5005060e5cd7e29939"},
-    {file = "trove_classifiers-2023.10.18-py3-none-any.whl", hash = "sha256:20a3da8e3cb65587cc9f5d5b837bf74edeb480bba9bd8cd4f03ab056d6b06c4c"},
+    {file = "trove-classifiers-2023.11.29.tar.gz", hash = "sha256:ff8f7fd82c7932113b46e7ef6742c70091cc63640c8c65db00d91f2e940b9514"},
+    {file = "trove_classifiers-2023.11.29-py3-none-any.whl", hash = "sha256:02307750cbbac2b3d13078662f8a5bf077732bf506e9c33c97204b7f68f3699e"},
 ]
 
 [[package]]
