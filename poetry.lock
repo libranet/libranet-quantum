@@ -3153,40 +3153,6 @@ tomlkit = ">=0.7"
 
 [[package]]
 name = "numpy"
-version = "1.25.2"
-description = "Fundamental package for array computing in Python"
-optional = false
-python-versions = ">=3.9"
-files = [
-    {file = "numpy-1.25.2-cp310-cp310-macosx_10_9_x86_64.whl", hash = "sha256:db3ccc4e37a6873045580d413fe79b68e47a681af8db2e046f1dacfa11f86eb3"},
-    {file = "numpy-1.25.2-cp310-cp310-macosx_11_0_arm64.whl", hash = "sha256:90319e4f002795ccfc9050110bbbaa16c944b1c37c0baeea43c5fb881693ae1f"},
-    {file = "numpy-1.25.2-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:dfe4a913e29b418d096e696ddd422d8a5d13ffba4ea91f9f60440a3b759b0187"},
-    {file = "numpy-1.25.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:f08f2e037bba04e707eebf4bc934f1972a315c883a9e0ebfa8a7756eabf9e357"},
-    {file = "numpy-1.25.2-cp310-cp310-musllinux_1_1_x86_64.whl", hash = "sha256:bec1e7213c7cb00d67093247f8c4db156fd03075f49876957dca4711306d39c9"},
-    {file = "numpy-1.25.2-cp310-cp310-win32.whl", hash = "sha256:7dc869c0c75988e1c693d0e2d5b26034644399dd929bc049db55395b1379e044"},
-    {file = "numpy-1.25.2-cp310-cp310-win_amd64.whl", hash = "sha256:834b386f2b8210dca38c71a6e0f4fd6922f7d3fcff935dbe3a570945acb1b545"},
-    {file = "numpy-1.25.2-cp311-cp311-macosx_10_9_x86_64.whl", hash = "sha256:c5462d19336db4560041517dbb7759c21d181a67cb01b36ca109b2ae37d32418"},
-    {file = "numpy-1.25.2-cp311-cp311-macosx_11_0_arm64.whl", hash = "sha256:c5652ea24d33585ea39eb6a6a15dac87a1206a692719ff45d53c5282e66d4a8f"},
-    {file = "numpy-1.25.2-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:0d60fbae8e0019865fc4784745814cff1c421df5afee233db6d88ab4f14655a2"},
-    {file = "numpy-1.25.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:60e7f0f7f6d0eee8364b9a6304c2845b9c491ac706048c7e8cf47b83123b8dbf"},
-    {file = "numpy-1.25.2-cp311-cp311-musllinux_1_1_x86_64.whl", hash = "sha256:bb33d5a1cf360304754913a350edda36d5b8c5331a8237268c48f91253c3a364"},
-    {file = "numpy-1.25.2-cp311-cp311-win32.whl", hash = "sha256:5883c06bb92f2e6c8181df7b39971a5fb436288db58b5a1c3967702d4278691d"},
-    {file = "numpy-1.25.2-cp311-cp311-win_amd64.whl", hash = "sha256:5c97325a0ba6f9d041feb9390924614b60b99209a71a69c876f71052521d42a4"},
-    {file = "numpy-1.25.2-cp39-cp39-macosx_10_9_x86_64.whl", hash = "sha256:b79e513d7aac42ae918db3ad1341a015488530d0bb2a6abcbdd10a3a829ccfd3"},
-    {file = "numpy-1.25.2-cp39-cp39-macosx_11_0_arm64.whl", hash = "sha256:eb942bfb6f84df5ce05dbf4b46673ffed0d3da59f13635ea9b926af3deb76926"},
-    {file = "numpy-1.25.2-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:3e0746410e73384e70d286f93abf2520035250aad8c5714240b0492a7302fdca"},
-    {file = "numpy-1.25.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:d7806500e4f5bdd04095e849265e55de20d8cc4b661b038957354327f6d9b295"},
-    {file = "numpy-1.25.2-cp39-cp39-musllinux_1_1_x86_64.whl", hash = "sha256:8b77775f4b7df768967a7c8b3567e309f617dd5e99aeb886fa14dc1a0791141f"},
-    {file = "numpy-1.25.2-cp39-cp39-win32.whl", hash = "sha256:2792d23d62ec51e50ce4d4b7d73de8f67a2fd3ea710dcbc8563a51a03fb07b01"},
-    {file = "numpy-1.25.2-cp39-cp39-win_amd64.whl", hash = "sha256:76b4115d42a7dfc5d485d358728cdd8719be33cc5ec6ec08632a5d6fca2ed380"},
-    {file = "numpy-1.25.2-pp39-pypy39_pp73-macosx_10_9_x86_64.whl", hash = "sha256:1a1329e26f46230bf77b02cc19e900db9b52f398d6722ca853349a782d4cff55"},
-    {file = "numpy-1.25.2-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:4c3abc71e8b6edba80a01a52e66d83c5d14433cbcd26a40c329ec7ed09f37901"},
-    {file = "numpy-1.25.2-pp39-pypy39_pp73-win_amd64.whl", hash = "sha256:1b9735c27cea5d995496f46a8b1cd7b408b3f34b6d50459d9ac8fe3a20cc17bf"},
-    {file = "numpy-1.25.2.tar.gz", hash = "sha256:fd608e19c8d7c55021dffd43bfe5492fab8cc105cc8986f813f8c3c048b38760"},
-]
-
-[[package]]
-name = "numpy"
 version = "1.26.2"
 description = "Fundamental package for array computing in Python"
 optional = false
@@ -3891,8 +3857,8 @@ astroid = ">=3.0.1,<=3.1.0-dev0"
 colorama = {version = ">=0.4.5", markers = "sys_platform == \"win32\""}
 dill = [
     {version = ">=0.2", markers = "python_version < \"3.11\""},
-    {version = ">=0.3.7", markers = "python_version >= \"3.12\""},
     {version = ">=0.3.6", markers = "python_version >= \"3.11\" and python_version < \"3.12\""},
+    {version = ">=0.3.7", markers = "python_version >= \"3.12\""},
 ]
 isort = ">=4.2.5,<5.13.0 || >5.13.0,<6"
 mccabe = ">=0.6,<0.8"
@@ -4356,18 +4322,18 @@ cffi = {version = "*", markers = "implementation_name == \"pypy\""}
 
 [[package]]
 name = "qiskit"
-version = "0.44.2"
+version = "0.45.1"
 description = "Software for developing quantum computing programs"
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "qiskit-0.44.2-py3-none-any.whl", hash = "sha256:2d394f75621df6f99b2f9045b858a69d363ffc4fd4e0cf7b555c6428a2fbd68c"},
-    {file = "qiskit-0.44.2.tar.gz", hash = "sha256:cc25f4dd1ef4b93966167a73e93fce417e5245c0fe2fd54cd1ac8da1faeafd89"},
+    {file = "qiskit-0.45.1-py3-none-any.whl", hash = "sha256:86a757f38f4934a0668cafd3bf0a18e3abaeac697d14f0a9e155cfab2d8c1817"},
+    {file = "qiskit-0.45.1.tar.gz", hash = "sha256:1ae868c514db3e35c0a75d8ec08002491b9301586647637f11f744f8a376bb9e"},
 ]
 
 [package.dependencies]
 qiskit-terra = [
-    {version = "0.25.2.1"},
+    {version = "0.45.1"},
     {version = "*", extras = ["visualization"], optional = true, markers = "extra == \"visualization\""},
 ]
 
@@ -4461,29 +4427,29 @@ visualization = ["ipython (>=5.0.0)", "ipyvue (>=1.8.5)", "ipyvuetify (>=1.1)", 
 
 [[package]]
 name = "qiskit-terra"
-version = "0.25.2.1"
+version = "0.45.1"
 description = "Software for developing quantum computing programs"
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "qiskit-terra-0.25.2.1.tar.gz", hash = "sha256:d3af3e01a4a58996fd065a7aa59bc46c4ea3559acd2164bf8725b58522fbafc4"},
-    {file = "qiskit_terra-0.25.2.1-cp38-abi3-macosx_10_9_universal2.whl", hash = "sha256:78cd859fd9879e954fc9b07dcc51df6d6efdc3ef12ae0b1b74bf292b0c0b2a32"},
-    {file = "qiskit_terra-0.25.2.1-cp38-abi3-macosx_10_9_x86_64.whl", hash = "sha256:134a1ce47a3c7ccdaf04b684bbbda1eee72cb9d6df0d18b5229483fb4fa8474e"},
-    {file = "qiskit_terra-0.25.2.1-cp38-abi3-macosx_11_0_arm64.whl", hash = "sha256:2189449214aeba383536785160a5b3fdf9680c145483d8a6e88a561aae9da0fb"},
-    {file = "qiskit_terra-0.25.2.1-cp38-abi3-manylinux_2_12_i686.manylinux2010_i686.manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:307b1f8fc66565feb2b7f03bd81edb1f816ef410f0a70c6befa7a5b272678876"},
-    {file = "qiskit_terra-0.25.2.1-cp38-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:4e2c975981d96599531d06728afe377d23b36d5af9d42ec30a2064af06593c39"},
-    {file = "qiskit_terra-0.25.2.1-cp38-abi3-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl", hash = "sha256:e1854cf97dcc0eb7cd3c4fc25c0627728d852b2776518cce6a5d2a295380acca"},
-    {file = "qiskit_terra-0.25.2.1-cp38-abi3-manylinux_2_17_s390x.manylinux2014_s390x.whl", hash = "sha256:25f790f8e23a019fd71299d3f1126ebaf513692fb233f12371cb21aaea675ce7"},
-    {file = "qiskit_terra-0.25.2.1-cp38-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:85e0995f12f7f985a3e8bff8b459a18b6d679f7271a3502e381af93760fea8c1"},
-    {file = "qiskit_terra-0.25.2.1-cp38-abi3-win32.whl", hash = "sha256:e87a57bb79160fcf0743c99f6966c98083737d395dc1a49f8b9bb63b5a9fb1e7"},
-    {file = "qiskit_terra-0.25.2.1-cp38-abi3-win_amd64.whl", hash = "sha256:eaa81d563310977e3e1d6598c338597d365adfaf58e10bc3e30feb4bd8dc4848"},
+    {file = "qiskit-terra-0.45.1.tar.gz", hash = "sha256:4ed0cf0d5f275276a27135b9d02f599d0c59c0c1c4286c2392314558481ed736"},
+    {file = "qiskit_terra-0.45.1-cp38-abi3-macosx_10_9_universal2.whl", hash = "sha256:edb6907b648ba8f2dd2c7409849afa7be7e2edb350014d3e78fc6d03505b205f"},
+    {file = "qiskit_terra-0.45.1-cp38-abi3-macosx_10_9_x86_64.whl", hash = "sha256:df34e6cbfc566b3411272de5dcc1c4f20c9d2d4af2b2e5f2f821d075bc05f5f8"},
+    {file = "qiskit_terra-0.45.1-cp38-abi3-macosx_11_0_arm64.whl", hash = "sha256:4f3cade24c2dba896686fdd27986304a8784bf4c2e55181853f08ff1c766019c"},
+    {file = "qiskit_terra-0.45.1-cp38-abi3-manylinux_2_12_i686.manylinux2010_i686.manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:dde0571a3e0be9ced6a50240b28d9e048309aa712fcdb37571c090e7845bed9e"},
+    {file = "qiskit_terra-0.45.1-cp38-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:4e29d1264b890619d0a0ff2d0cdb244cb12ea27217c47a8f1ef2c8eaa9bd6b94"},
+    {file = "qiskit_terra-0.45.1-cp38-abi3-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl", hash = "sha256:47f9e7e25b0b04b73a8475865a2b0850bc5104536eaca05278657933167a7174"},
+    {file = "qiskit_terra-0.45.1-cp38-abi3-manylinux_2_17_s390x.manylinux2014_s390x.whl", hash = "sha256:9081e1731d0fe80619612073f9cfbcfbd4cd64c01c843ce936f4eb17876cb020"},
+    {file = "qiskit_terra-0.45.1-cp38-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:9f8500c757386354fbb1d9424395541b90cc72d8b0dadaf2606d01190fa7594d"},
+    {file = "qiskit_terra-0.45.1-cp38-abi3-win32.whl", hash = "sha256:f9c641c6a14b599aca1de59c9c2c2cd7a711000749523f0d6f503a3445ddd4b6"},
+    {file = "qiskit_terra-0.45.1-cp38-abi3-win_amd64.whl", hash = "sha256:f41387fa19145f5ed22fa5f7e3bed44ba4ee4ba06bfbfada83b5a516587f2a74"},
 ]
 
 [package.dependencies]
 dill = ">=0.3"
 ipywidgets = {version = ">=7.3.0", optional = true, markers = "extra == \"visualization\""}
 matplotlib = {version = ">=3.3", optional = true, markers = "extra == \"visualization\""}
-numpy = ">=1.17"
+numpy = ">=1.17,<2"
 pillow = {version = ">=4.2.1", optional = true, markers = "extra == \"visualization\""}
 ply = ">=3.10"
 psutil = ">=5"
@@ -4495,17 +4461,15 @@ rustworkx = ">=0.13.0"
 scipy = ">=1.5"
 seaborn = {version = ">=0.9.0", optional = true, markers = "extra == \"visualization\""}
 stevedore = ">=3.0.0"
-symengine = {version = ">=0.9,<0.10", markers = "platform_machine == \"x86_64\" or platform_machine == \"aarch64\" or platform_machine == \"ppc64le\" or platform_machine == \"amd64\" or platform_machine == \"arm64\""}
+symengine = {version = ">=0.9,<0.10.0 || >0.10.0", markers = "platform_machine == \"x86_64\" or platform_machine == \"aarch64\" or platform_machine == \"ppc64le\" or platform_machine == \"amd64\" or platform_machine == \"arm64\""}
 sympy = ">=1.3"
 typing-extensions = {version = "*", markers = "python_version < \"3.11\""}
 
 [package.extras]
 all = ["ipywidgets (>=7.3.0)", "matplotlib (>=3.3)", "pillow (>=4.2.1)", "pydot", "pygments (>=2.4)", "pylatexenc (>=1.4)", "python-constraint (>=1.4)", "qiskit-qasm3-import (>=0.1.0)", "seaborn (>=0.9.0)", "z3-solver (>=4.7)"]
-bip-mapper = ["cplex", "docplex"]
 crosstalk-pass = ["z3-solver (>=4.7)"]
 csp-layout-pass = ["python-constraint (>=1.4)"]
 qasm3-import = ["qiskit-qasm3-import (>=0.1.0)"]
-toqm = ["qiskit-toqm (>=0.1.0)"]
 visualization = ["ipywidgets (>=7.3.0)", "matplotlib (>=3.3)", "pillow (>=4.2.1)", "pydot", "pygments (>=2.4)", "pylatexenc (>=1.4)", "seaborn (>=0.9.0)"]
 
 [[package]]
