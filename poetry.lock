@@ -4322,18 +4322,18 @@ cffi = {version = "*", markers = "implementation_name == \"pypy\""}
 
 [[package]]
 name = "qiskit"
-version = "0.44.2"
+version = "0.45.1"
 description = "Software for developing quantum computing programs"
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "qiskit-0.44.2-py3-none-any.whl", hash = "sha256:2d394f75621df6f99b2f9045b858a69d363ffc4fd4e0cf7b555c6428a2fbd68c"},
-    {file = "qiskit-0.44.2.tar.gz", hash = "sha256:cc25f4dd1ef4b93966167a73e93fce417e5245c0fe2fd54cd1ac8da1faeafd89"},
+    {file = "qiskit-0.45.1-py3-none-any.whl", hash = "sha256:86a757f38f4934a0668cafd3bf0a18e3abaeac697d14f0a9e155cfab2d8c1817"},
+    {file = "qiskit-0.45.1.tar.gz", hash = "sha256:1ae868c514db3e35c0a75d8ec08002491b9301586647637f11f744f8a376bb9e"},
 ]
 
 [package.dependencies]
 qiskit-terra = [
-    {version = "0.25.2.1"},
+    {version = "0.45.1"},
     {version = "*", extras = ["visualization"], optional = true, markers = "extra == \"visualization\""},
 ]
 
@@ -4427,29 +4427,29 @@ visualization = ["ipython (>=5.0.0)", "ipyvue (>=1.8.5)", "ipyvuetify (>=1.1)", 
 
 [[package]]
 name = "qiskit-terra"
-version = "0.25.2.1"
+version = "0.45.1"
 description = "Software for developing quantum computing programs"
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "qiskit-terra-0.25.2.1.tar.gz", hash = "sha256:d3af3e01a4a58996fd065a7aa59bc46c4ea3559acd2164bf8725b58522fbafc4"},
-    {file = "qiskit_terra-0.25.2.1-cp38-abi3-macosx_10_9_universal2.whl", hash = "sha256:78cd859fd9879e954fc9b07dcc51df6d6efdc3ef12ae0b1b74bf292b0c0b2a32"},
-    {file = "qiskit_terra-0.25.2.1-cp38-abi3-macosx_10_9_x86_64.whl", hash = "sha256:134a1ce47a3c7ccdaf04b684bbbda1eee72cb9d6df0d18b5229483fb4fa8474e"},
-    {file = "qiskit_terra-0.25.2.1-cp38-abi3-macosx_11_0_arm64.whl", hash = "sha256:2189449214aeba383536785160a5b3fdf9680c145483d8a6e88a561aae9da0fb"},
-    {file = "qiskit_terra-0.25.2.1-cp38-abi3-manylinux_2_12_i686.manylinux2010_i686.manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:307b1f8fc66565feb2b7f03bd81edb1f816ef410f0a70c6befa7a5b272678876"},
-    {file = "qiskit_terra-0.25.2.1-cp38-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:4e2c975981d96599531d06728afe377d23b36d5af9d42ec30a2064af06593c39"},
-    {file = "qiskit_terra-0.25.2.1-cp38-abi3-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl", hash = "sha256:e1854cf97dcc0eb7cd3c4fc25c0627728d852b2776518cce6a5d2a295380acca"},
-    {file = "qiskit_terra-0.25.2.1-cp38-abi3-manylinux_2_17_s390x.manylinux2014_s390x.whl", hash = "sha256:25f790f8e23a019fd71299d3f1126ebaf513692fb233f12371cb21aaea675ce7"},
-    {file = "qiskit_terra-0.25.2.1-cp38-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:85e0995f12f7f985a3e8bff8b459a18b6d679f7271a3502e381af93760fea8c1"},
-    {file = "qiskit_terra-0.25.2.1-cp38-abi3-win32.whl", hash = "sha256:e87a57bb79160fcf0743c99f6966c98083737d395dc1a49f8b9bb63b5a9fb1e7"},
-    {file = "qiskit_terra-0.25.2.1-cp38-abi3-win_amd64.whl", hash = "sha256:eaa81d563310977e3e1d6598c338597d365adfaf58e10bc3e30feb4bd8dc4848"},
+    {file = "qiskit-terra-0.45.1.tar.gz", hash = "sha256:4ed0cf0d5f275276a27135b9d02f599d0c59c0c1c4286c2392314558481ed736"},
+    {file = "qiskit_terra-0.45.1-cp38-abi3-macosx_10_9_universal2.whl", hash = "sha256:edb6907b648ba8f2dd2c7409849afa7be7e2edb350014d3e78fc6d03505b205f"},
+    {file = "qiskit_terra-0.45.1-cp38-abi3-macosx_10_9_x86_64.whl", hash = "sha256:df34e6cbfc566b3411272de5dcc1c4f20c9d2d4af2b2e5f2f821d075bc05f5f8"},
+    {file = "qiskit_terra-0.45.1-cp38-abi3-macosx_11_0_arm64.whl", hash = "sha256:4f3cade24c2dba896686fdd27986304a8784bf4c2e55181853f08ff1c766019c"},
+    {file = "qiskit_terra-0.45.1-cp38-abi3-manylinux_2_12_i686.manylinux2010_i686.manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:dde0571a3e0be9ced6a50240b28d9e048309aa712fcdb37571c090e7845bed9e"},
+    {file = "qiskit_terra-0.45.1-cp38-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:4e29d1264b890619d0a0ff2d0cdb244cb12ea27217c47a8f1ef2c8eaa9bd6b94"},
+    {file = "qiskit_terra-0.45.1-cp38-abi3-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl", hash = "sha256:47f9e7e25b0b04b73a8475865a2b0850bc5104536eaca05278657933167a7174"},
+    {file = "qiskit_terra-0.45.1-cp38-abi3-manylinux_2_17_s390x.manylinux2014_s390x.whl", hash = "sha256:9081e1731d0fe80619612073f9cfbcfbd4cd64c01c843ce936f4eb17876cb020"},
+    {file = "qiskit_terra-0.45.1-cp38-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:9f8500c757386354fbb1d9424395541b90cc72d8b0dadaf2606d01190fa7594d"},
+    {file = "qiskit_terra-0.45.1-cp38-abi3-win32.whl", hash = "sha256:f9c641c6a14b599aca1de59c9c2c2cd7a711000749523f0d6f503a3445ddd4b6"},
+    {file = "qiskit_terra-0.45.1-cp38-abi3-win_amd64.whl", hash = "sha256:f41387fa19145f5ed22fa5f7e3bed44ba4ee4ba06bfbfada83b5a516587f2a74"},
 ]
 
 [package.dependencies]
 dill = ">=0.3"
 ipywidgets = {version = ">=7.3.0", optional = true, markers = "extra == \"visualization\""}
 matplotlib = {version = ">=3.3", optional = true, markers = "extra == \"visualization\""}
-numpy = ">=1.17"
+numpy = ">=1.17,<2"
 pillow = {version = ">=4.2.1", optional = true, markers = "extra == \"visualization\""}
 ply = ">=3.10"
 psutil = ">=5"
@@ -4461,17 +4461,15 @@ rustworkx = ">=0.13.0"
 scipy = ">=1.5"
 seaborn = {version = ">=0.9.0", optional = true, markers = "extra == \"visualization\""}
 stevedore = ">=3.0.0"
-symengine = {version = ">=0.9,<0.10", markers = "platform_machine == \"x86_64\" or platform_machine == \"aarch64\" or platform_machine == \"ppc64le\" or platform_machine == \"amd64\" or platform_machine == \"arm64\""}
+symengine = {version = ">=0.9,<0.10.0 || >0.10.0", markers = "platform_machine == \"x86_64\" or platform_machine == \"aarch64\" or platform_machine == \"ppc64le\" or platform_machine == \"amd64\" or platform_machine == \"arm64\""}
 sympy = ">=1.3"
 typing-extensions = {version = "*", markers = "python_version < \"3.11\""}
 
 [package.extras]
 all = ["ipywidgets (>=7.3.0)", "matplotlib (>=3.3)", "pillow (>=4.2.1)", "pydot", "pygments (>=2.4)", "pylatexenc (>=1.4)", "python-constraint (>=1.4)", "qiskit-qasm3-import (>=0.1.0)", "seaborn (>=0.9.0)", "z3-solver (>=4.7)"]
-bip-mapper = ["cplex", "docplex"]
 crosstalk-pass = ["z3-solver (>=4.7)"]
 csp-layout-pass = ["python-constraint (>=1.4)"]
 qasm3-import = ["qiskit-qasm3-import (>=0.1.0)"]
-toqm = ["qiskit-toqm (>=0.1.0)"]
 visualization = ["ipywidgets (>=7.3.0)", "matplotlib (>=3.3)", "pillow (>=4.2.1)", "pydot", "pygments (>=2.4)", "pylatexenc (>=1.4)", "seaborn (>=0.9.0)"]
 
 [[package]]
