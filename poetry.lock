@@ -4401,19 +4401,19 @@ dask = ["dask", "distributed"]
 
 [[package]]
 name = "qiskit-ibm-provider"
-version = "0.7.3"
+version = "0.8.0"
 description = "Qiskit IBM Quantum Provider for accessing the quantum devices and simulators at IBM"
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "qiskit-ibm-provider-0.7.3.tar.gz", hash = "sha256:a6a2e6a1acfd8406756daf027c6208fb2aba3c15b8e1d540dac12b0e2f0b7516"},
-    {file = "qiskit_ibm_provider-0.7.3-py3-none-any.whl", hash = "sha256:b0a79f1ae58bbc63adb02bb13c118c3ed2857fcf3f8b706ec6dbd46bd9d39a2d"},
+    {file = "qiskit-ibm-provider-0.8.0.tar.gz", hash = "sha256:8ab0884288be7fd0bdddd2d294a9670fcda2ee6c1680bee1b9695d17aa98adc8"},
+    {file = "qiskit_ibm_provider-0.8.0-py3-none-any.whl", hash = "sha256:3d2c0d5897d15dbecd22b163a9ca4caa5f36e62af5b4186af1f5314d1e032d20"},
 ]
 
 [package.dependencies]
 numpy = ">=1.13"
 python-dateutil = ">=2.8.0"
-qiskit = ">=0.44.1"
+qiskit = ">=0.45.0"
 requests = ">=2.19"
 requests-ntlm = ">=1.1.0"
 typing-extensions = ">=4.3"
