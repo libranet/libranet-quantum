@@ -620,41 +620,42 @@ files = [
 
 [[package]]
 name = "cirq-core"
-version = "1.3.0"
+version = "1.4.0"
 description = "A framework for creating, editing, and invoking Noisy Intermediate Scale Quantum (NISQ) circuits."
 optional = false
-python-versions = ">=3.9.0"
+python-versions = ">=3.10.0"
 files = [
-    {file = "cirq_core-1.3.0-py3-none-any.whl", hash = "sha256:d46771ddf4adb0867d3fb6da8c4484b73bada5bfaa58c19e2444aa8838270fd9"},
+    {file = "cirq_core-1.4.0-py3-none-any.whl", hash = "sha256:ad68e5a420fc4cf3ad76a0c1bdf3a1fcf21daede8236b850542220cb81504a20"},
 ]
 
 [package.dependencies]
-duet = ">=0.2.8,<0.3.0"
+attrs = "*"
+duet = ">=0.2.8"
 matplotlib = ">=3.0,<4.0"
 networkx = ">=2.4"
-numpy = ">=1.16,<2.0"
+numpy = ">=1.22,<2.0"
 pandas = "*"
-scipy = "*"
+scipy = ">=1.0,<2.0"
 sortedcontainers = ">=2.0,<3.0"
 sympy = "*"
 tqdm = "*"
 typing-extensions = ">=4.2"
 
 [package.extras]
-contrib = ["autoray", "numba (>=0.53.0)", "opt-einsum", "ply (>=3.6)", "pylatex (>=1.3.0,<1.4.0)", "quimb"]
+contrib = ["opt-einsum", "ply (>=3.6)", "pylatex (>=1.4,<2.0)", "quimb (>=1.7,<2.0)"]
 
 [[package]]
 name = "cirq-google"
-version = "1.3.0"
+version = "1.4.0"
 description = "The Cirq module that provides tools and access to the Google Quantum Computing Service"
 optional = false
-python-versions = ">=3.9.0"
+python-versions = ">=3.10.0"
 files = [
-    {file = "cirq_google-1.3.0-py3-none-any.whl", hash = "sha256:aa802887679f64ef8359f77d5bbd5bb98dc076c35c152c3b7f172c6e09d4e667"},
+    {file = "cirq_google-1.4.0-py3-none-any.whl", hash = "sha256:f2121e9273f23c77271e81a429d7461b3690b555aa322da8412a3c97c445008e"},
 ]
 
 [package.dependencies]
-cirq-core = "1.3.0"
+cirq-core = "1.4.0"
 google-api-core = {version = ">=1.14.0", extras = ["grpc"]}
 proto-plus = ">=1.20.0"
 protobuf = ">=3.15.0"
