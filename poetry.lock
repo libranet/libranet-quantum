@@ -3664,22 +3664,22 @@ testing = ["google-api-core (>=1.31.5)"]
 
 [[package]]
 name = "protobuf"
-version = "5.27.1"
+version = "5.27.2"
 description = ""
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "protobuf-5.27.1-cp310-abi3-win32.whl", hash = "sha256:3adc15ec0ff35c5b2d0992f9345b04a540c1e73bfee3ff1643db43cc1d734333"},
-    {file = "protobuf-5.27.1-cp310-abi3-win_amd64.whl", hash = "sha256:25236b69ab4ce1bec413fd4b68a15ef8141794427e0b4dc173e9d5d9dffc3bcd"},
-    {file = "protobuf-5.27.1-cp38-abi3-macosx_10_9_universal2.whl", hash = "sha256:4e38fc29d7df32e01a41cf118b5a968b1efd46b9c41ff515234e794011c78b17"},
-    {file = "protobuf-5.27.1-cp38-abi3-manylinux2014_aarch64.whl", hash = "sha256:917ed03c3eb8a2d51c3496359f5b53b4e4b7e40edfbdd3d3f34336e0eef6825a"},
-    {file = "protobuf-5.27.1-cp38-abi3-manylinux2014_x86_64.whl", hash = "sha256:ee52874a9e69a30271649be88ecbe69d374232e8fd0b4e4b0aaaa87f429f1631"},
-    {file = "protobuf-5.27.1-cp38-cp38-win32.whl", hash = "sha256:7a97b9c5aed86b9ca289eb5148df6c208ab5bb6906930590961e08f097258107"},
-    {file = "protobuf-5.27.1-cp38-cp38-win_amd64.whl", hash = "sha256:f6abd0f69968792da7460d3c2cfa7d94fd74e1c21df321eb6345b963f9ec3d8d"},
-    {file = "protobuf-5.27.1-cp39-cp39-win32.whl", hash = "sha256:dfddb7537f789002cc4eb00752c92e67885badcc7005566f2c5de9d969d3282d"},
-    {file = "protobuf-5.27.1-cp39-cp39-win_amd64.whl", hash = "sha256:39309898b912ca6febb0084ea912e976482834f401be35840a008da12d189340"},
-    {file = "protobuf-5.27.1-py3-none-any.whl", hash = "sha256:4ac7249a1530a2ed50e24201d6630125ced04b30619262f06224616e0030b6cf"},
-    {file = "protobuf-5.27.1.tar.gz", hash = "sha256:df5e5b8e39b7d1c25b186ffdf9f44f40f810bbcc9d2b71d9d3156fee5a9adf15"},
+    {file = "protobuf-5.27.2-cp310-abi3-win32.whl", hash = "sha256:354d84fac2b0d76062e9b3221f4abbbacdfd2a4d8af36bab0474f3a0bb30ab38"},
+    {file = "protobuf-5.27.2-cp310-abi3-win_amd64.whl", hash = "sha256:0e341109c609749d501986b835f667c6e1e24531096cff9d34ae411595e26505"},
+    {file = "protobuf-5.27.2-cp38-abi3-macosx_10_9_universal2.whl", hash = "sha256:a109916aaac42bff84702fb5187f3edadbc7c97fc2c99c5ff81dd15dcce0d1e5"},
+    {file = "protobuf-5.27.2-cp38-abi3-manylinux2014_aarch64.whl", hash = "sha256:176c12b1f1c880bf7a76d9f7c75822b6a2bc3db2d28baa4d300e8ce4cde7409b"},
+    {file = "protobuf-5.27.2-cp38-abi3-manylinux2014_x86_64.whl", hash = "sha256:b848dbe1d57ed7c191dfc4ea64b8b004a3f9ece4bf4d0d80a367b76df20bf36e"},
+    {file = "protobuf-5.27.2-cp38-cp38-win32.whl", hash = "sha256:4fadd8d83e1992eed0248bc50a4a6361dc31bcccc84388c54c86e530b7f58863"},
+    {file = "protobuf-5.27.2-cp38-cp38-win_amd64.whl", hash = "sha256:610e700f02469c4a997e58e328cac6f305f649826853813177e6290416e846c6"},
+    {file = "protobuf-5.27.2-cp39-cp39-win32.whl", hash = "sha256:9e8f199bf7f97bd7ecebffcae45ebf9527603549b2b562df0fbc6d4d688f14ca"},
+    {file = "protobuf-5.27.2-cp39-cp39-win_amd64.whl", hash = "sha256:7fc3add9e6003e026da5fc9e59b131b8f22b428b991ccd53e2af8071687b4fce"},
+    {file = "protobuf-5.27.2-py3-none-any.whl", hash = "sha256:54330f07e4949d09614707c48b06d1a22f8ffb5763c159efd5c0928326a91470"},
+    {file = "protobuf-5.27.2.tar.gz", hash = "sha256:f3ecdef226b9af856075f28227ff2c90ce3a594d092c39bee5513573f25e2714"},
 ]
 
 [[package]]
@@ -4566,6 +4566,7 @@ files = [
     {file = "qiskit_aer-0.14.2-cp310-cp310-macosx_11_0_arm64.whl", hash = "sha256:7e63523705d27d527d048da9b70bdf398faf728867aa728099f753ea2bea13cd"},
     {file = "qiskit_aer-0.14.2-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:c51e85ce3a55d6527f74e1133b045ef7ca23bb11519639ca321249a89fe755b6"},
     {file = "qiskit_aer-0.14.2-cp310-cp310-manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:3691dd8e3afa749822474de355fe813559fb78ab0c7c5ac08f060b8f82bfaeb9"},
+    {file = "qiskit_aer-0.14.2-cp310-cp310-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl", hash = "sha256:3dd095832c12b6defbadb8123a5d76302126908348c00441e4b351720cef80e1"},
     {file = "qiskit_aer-0.14.2-cp310-cp310-manylinux_2_17_s390x.manylinux2014_s390x.whl", hash = "sha256:8b4490ce94d740d6f833776be37b31bf7bb94dc38e8789ab2c27421449cabad2"},
     {file = "qiskit_aer-0.14.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:7f5f42e6f016bb027079fef73597a3b35b76e2ac398138d83651833e93dc964d"},
     {file = "qiskit_aer-0.14.2-cp310-cp310-win32.whl", hash = "sha256:0bfa5c289f973f081a0874bf79a1087c9d70a052c16f8bbc8ab2ff3e796859c4"},
@@ -4574,6 +4575,7 @@ files = [
     {file = "qiskit_aer-0.14.2-cp311-cp311-macosx_11_0_arm64.whl", hash = "sha256:8dbb6a0ec4ae193cb3649f4400178592ea4ad9714b070bf86222d370bfcb9e15"},
     {file = "qiskit_aer-0.14.2-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:8c11a3fd727d3075fb4d4ad00cf6670fa944d2df7f4b1b5b109f45bd9156d603"},
     {file = "qiskit_aer-0.14.2-cp311-cp311-manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:246175da975a80e3999c8b1a375dc7248f59b165b8fcabc3be4dde8d07224ffe"},
+    {file = "qiskit_aer-0.14.2-cp311-cp311-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl", hash = "sha256:3f20f5d9cba0e71e5d34fd432e59dae3617e355ffdc0d77e41eca2459005896e"},
     {file = "qiskit_aer-0.14.2-cp311-cp311-manylinux_2_17_s390x.manylinux2014_s390x.whl", hash = "sha256:b7d1526359547c006a7c9ce35441c2a2207ceeb78fc05ac29866d700cf4da175"},
     {file = "qiskit_aer-0.14.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:05e3bd6a6bc68a8705f3f37e0597c5de91b2ce051b72743028f4a306c3483bd0"},
     {file = "qiskit_aer-0.14.2-cp311-cp311-win32.whl", hash = "sha256:7f2320ea40f0118059acb2345aed03039a453693adc47f8adec079e1d163e3c6"},
@@ -4582,18 +4584,21 @@ files = [
     {file = "qiskit_aer-0.14.2-cp312-cp312-macosx_11_0_arm64.whl", hash = "sha256:4302a11317a46490b06c91d8b70fd1d5895692904a0624c7974d669454ef0876"},
     {file = "qiskit_aer-0.14.2-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:1e26e59e021376445a0f1673f9da816273d3987fd2270634bcfa6e3c9281b127"},
     {file = "qiskit_aer-0.14.2-cp312-cp312-manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:57d3df63142b17e753f6fbe8ab01038ae45057ba6d897e53f94e78c80960e4f2"},
+    {file = "qiskit_aer-0.14.2-cp312-cp312-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl", hash = "sha256:7833ce242ded53bd72fffec2745c17832c0807b4455fd66ed8b0e71b4e07aa67"},
     {file = "qiskit_aer-0.14.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:e734d3afa26919a511085d474b6cfc1fcc44e4c692227e65cd8e09be521a0881"},
     {file = "qiskit_aer-0.14.2-cp312-cp312-win32.whl", hash = "sha256:329e3b8c8ccf6cdfb251ef6cc99249ca424a4193a1b2c6df54d7b66bcdac9566"},
     {file = "qiskit_aer-0.14.2-cp312-cp312-win_amd64.whl", hash = "sha256:4085fdc0a805eddbda12fbcdfde0c69e724c56b50168655778388a95b73c9c12"},
     {file = "qiskit_aer-0.14.2-cp38-cp38-macosx_10_9_x86_64.whl", hash = "sha256:cddf30ee84eb5923c7a9d68074f2ce388790cab10346ad76876d91c6d0a4873c"},
     {file = "qiskit_aer-0.14.2-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:451699ca80b3fef59a7bebac245b3988740dd6095c1fa2959bc474b1fac51187"},
     {file = "qiskit_aer-0.14.2-cp38-cp38-manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:d1ba57424a4649288c3c63685b3a2deaf9447e55e4f04d54af623ef981a4853f"},
+    {file = "qiskit_aer-0.14.2-cp38-cp38-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl", hash = "sha256:777a34b578375b670d706788559d04c50fa4637b8cb99753dc34be96768b318d"},
     {file = "qiskit_aer-0.14.2-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:16ef5ea5fb05c8d66a6911934e3640b0d56ad4842bca41ebf3328387d079c4bd"},
     {file = "qiskit_aer-0.14.2-cp38-cp38-win32.whl", hash = "sha256:c412d866ef50d2813fbefcc093bcb507fcdc1d97d652ea9407e86d13fb25e5df"},
     {file = "qiskit_aer-0.14.2-cp38-cp38-win_amd64.whl", hash = "sha256:7c3cca5a15bd11cc0ff3562a7e39cc99c9069159c609c9633766e0be4ad7789c"},
     {file = "qiskit_aer-0.14.2-cp39-cp39-macosx_10_9_x86_64.whl", hash = "sha256:0aff9888269095fe1fdb4b8a870cf66a9a63c00eaf0296e955e122d8b61e2f3f"},
     {file = "qiskit_aer-0.14.2-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:05c826eba94952f0c43e52baefea0801e4eccf9a4886aca484fcfa1381dd5bf3"},
     {file = "qiskit_aer-0.14.2-cp39-cp39-manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:05d19db49fdecd4f71f3a35525c9fcdc32c80e90e502f872536af1e0ffa1f618"},
+    {file = "qiskit_aer-0.14.2-cp39-cp39-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl", hash = "sha256:60fb8c071ffd558342cb8e66ad960f0d2cc73944c31b024a0e0798aab0b7a8d5"},
     {file = "qiskit_aer-0.14.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:73a48105df9e1df9284b64ba983cdb6b23eae41090db8c80ff956e78ad91bdac"},
     {file = "qiskit_aer-0.14.2-cp39-cp39-win32.whl", hash = "sha256:8d2fffd42974ed0d2b1c89323c5405aa6cad71316c8e3994aad341e9fb3b3c92"},
     {file = "qiskit_aer-0.14.2-cp39-cp39-win_amd64.whl", hash = "sha256:30ffebbd00860691e7e8802b9aaef2640e691680c3ac2a5b9a454e3b9d336eee"},
