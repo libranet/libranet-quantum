@@ -1409,8 +1409,8 @@ files = [
 [package.dependencies]
 cffi = {version = ">=1.12.2", markers = "platform_python_implementation == \"CPython\" and sys_platform == \"win32\""}
 greenlet = [
-    {version = ">=2.0.0", markers = "platform_python_implementation == \"CPython\" and python_version < \"3.11\""},
     {version = ">=3.0rc3", markers = "platform_python_implementation == \"CPython\" and python_version >= \"3.11\""},
+    {version = ">=2.0.0", markers = "platform_python_implementation == \"CPython\" and python_version < \"3.11\""},
 ]
 "zope.event" = "*"
 "zope.interface" = "*"
@@ -1520,12 +1520,12 @@ files = [
 google-auth = ">=2.14.1,<3.0.dev0"
 googleapis-common-protos = ">=1.56.2,<2.0.dev0"
 grpcio = [
-    {version = ">=1.33.2,<2.0dev", optional = true, markers = "python_version < \"3.11\" and extra == \"grpc\""},
     {version = ">=1.49.1,<2.0dev", optional = true, markers = "python_version >= \"3.11\" and extra == \"grpc\""},
+    {version = ">=1.33.2,<2.0dev", optional = true, markers = "python_version < \"3.11\" and extra == \"grpc\""},
 ]
 grpcio-status = [
-    {version = ">=1.33.2,<2.0.dev0", optional = true, markers = "python_version < \"3.11\" and extra == \"grpc\""},
     {version = ">=1.49.1,<2.0.dev0", optional = true, markers = "python_version >= \"3.11\" and extra == \"grpc\""},
+    {version = ">=1.33.2,<2.0.dev0", optional = true, markers = "python_version < \"3.11\" and extra == \"grpc\""},
 ]
 proto-plus = ">=1.22.3,<2.0.0dev"
 protobuf = ">=3.19.5,<3.20.0 || >3.20.0,<3.20.1 || >3.20.1,<4.21.0 || >4.21.0,<4.21.1 || >4.21.1,<4.21.2 || >4.21.2,<4.21.3 || >4.21.3,<4.21.4 || >4.21.4,<4.21.5 || >4.21.5,<6.0.0.dev0"
@@ -1792,13 +1792,13 @@ files = [
 
 [[package]]
 name = "httpie"
-version = "3.2.2"
+version = "3.2.3"
 description = "HTTPie: modern, user-friendly command-line HTTP client for the API era."
 optional = false
 python-versions = ">=3.7"
 files = [
-    {file = "httpie-3.2.2-py3-none-any.whl", hash = "sha256:33082092553126e3e38395682c23121c3450472ffddb363eb895ad685d01800e"},
-    {file = "httpie-3.2.2.tar.gz", hash = "sha256:8bfb671f0b39505c197fdef3367f7f99af5d0e81a4e22289bb4c1f0e72251c90"},
+    {file = "httpie-3.2.3-py3-none-any.whl", hash = "sha256:c7db00b1996704fd603c3eb50f736e76129ff4ac2f0b37897165f639dc2be0a8"},
+    {file = "httpie-3.2.3.tar.gz", hash = "sha256:bbb72b4c2ec738301dcb61018f93325e55bc2720977df9a6742745fa3db313c3"},
 ]
 
 [package.dependencies]
@@ -1808,14 +1808,14 @@ defusedxml = ">=0.6.0"
 multidict = ">=4.7.0"
 pip = "*"
 Pygments = ">=2.5.2"
-requests = {version = ">=2.22.0", extras = ["socks"]}
+requests = {version = ">=2.22.0,<=2.31.0", extras = ["socks"]}
 requests-toolbelt = ">=0.9.1"
 rich = ">=9.10.0"
 setuptools = "*"
 
 [package.extras]
-dev = ["Jinja2", "flake8", "flake8-comprehensions", "flake8-deprecated", "flake8-mutable", "flake8-tuple", "pyopenssl", "pytest", "pytest-cov", "pytest-httpbin (>=0.0.6)", "pytest-lazy-fixture (>=0.0.6)", "pytest-mock", "pyyaml", "responses", "twine", "werkzeug (<2.1.0)", "wheel"]
-test = ["pytest", "pytest-httpbin (>=0.0.6)", "pytest-lazy-fixture (>=0.0.6)", "pytest-mock", "responses", "werkzeug (<2.1.0)"]
+dev = ["Jinja2", "flake8", "flake8-comprehensions", "flake8-deprecated", "flake8-mutable", "flake8-tuple", "pyopenssl", "pytest", "pytest-cov", "pytest-httpbin (>=0.0.6)", "pytest-mock", "pyyaml", "responses", "twine", "werkzeug (<2.1.0)", "wheel"]
+test = ["pytest", "pytest-httpbin (>=0.0.6)", "pytest-mock", "responses", "werkzeug (<2.1.0)"]
 
 [[package]]
 name = "httptools"
@@ -2434,6 +2434,32 @@ testing = ["coverage", "pytest", "pytest-click", "pytest-cov"]
 
 [[package]]
 name = "locust"
+version = "2.28.0"
+description = "Developer-friendly load testing framework"
+optional = false
+python-versions = ">=3.9"
+files = [
+    {file = "locust-2.28.0-py3-none-any.whl", hash = "sha256:766be879db030c0118e7d9fca712f3538c4e628bdebf59468fa1c6c2fab217d3"},
+    {file = "locust-2.28.0.tar.gz", hash = "sha256:260557eec866f7e34a767b6c916b5b278167562a280480aadb88f43d962fbdeb"},
+]
+
+[package.dependencies]
+ConfigArgParse = ">=1.5.5"
+flask = ">=2.0.0"
+Flask-Cors = ">=3.0.10"
+Flask-Login = ">=0.6.3"
+gevent = ">=22.10.2"
+geventhttpclient = ">=2.3.1"
+msgpack = ">=1.0.0"
+psutil = ">=5.9.1"
+pywin32 = {version = "*", markers = "platform_system == \"Windows\""}
+pyzmq = ">=25.0.0"
+requests = ">=2.26.0"
+tomli = {version = ">=1.1.0", markers = "python_version < \"3.11\""}
+Werkzeug = ">=2.0.0"
+
+[[package]]
+name = "locust"
 version = "2.29.1"
 description = "Developer-friendly load testing framework"
 optional = false
@@ -2454,10 +2480,7 @@ msgpack = ">=1.0.0"
 psutil = ">=5.9.1"
 pywin32 = {version = "*", markers = "platform_system == \"Windows\""}
 pyzmq = ">=25.0.0"
-requests = [
-    {version = ">=2.26.0", markers = "python_version <= \"3.11\""},
-    {version = ">=2.32.2", markers = "python_version > \"3.11\""},
-]
+requests = {version = ">=2.26.0", markers = "python_version <= \"3.11\""}
 tomli = {version = ">=1.1.0", markers = "python_version < \"3.11\""}
 typing-extensions = {version = ">=4.6.0", markers = "python_version < \"3.11\""}
 Werkzeug = ">=2.0.0"
@@ -3325,8 +3348,8 @@ files = [
 
 [package.dependencies]
 numpy = [
-    {version = ">=1.22.4", markers = "python_version < \"3.11\""},
     {version = ">=1.26.0", markers = "python_version >= \"3.12\""},
+    {version = ">=1.22.4", markers = "python_version < \"3.11\""},
     {version = ">=1.23.2", markers = "python_version == \"3.11\""},
 ]
 python-dateutil = ">=2.8.2"
@@ -4087,9 +4110,9 @@ files = [
 astroid = ">=3.2.4,<=3.3.0-dev0"
 colorama = {version = ">=0.4.5", markers = "sys_platform == \"win32\""}
 dill = [
-    {version = ">=0.2", markers = "python_version < \"3.11\""},
-    {version = ">=0.3.7", markers = "python_version >= \"3.12\""},
     {version = ">=0.3.6", markers = "python_version >= \"3.11\" and python_version < \"3.12\""},
+    {version = ">=0.3.7", markers = "python_version >= \"3.12\""},
+    {version = ">=0.2", markers = "python_version < \"3.11\""},
 ]
 isort = ">=4.2.5,<5.13.0 || >5.13.0,<6"
 mccabe = ">=0.6,<0.8"
@@ -4722,13 +4745,13 @@ sphinx = ">=1.3.1"
 
 [[package]]
 name = "requests"
-version = "2.32.3"
+version = "2.31.0"
 description = "Python HTTP for Humans."
 optional = false
-python-versions = ">=3.8"
+python-versions = ">=3.7"
 files = [
-    {file = "requests-2.32.3-py3-none-any.whl", hash = "sha256:70761cfe03c773ceb22aa2f671b4757976145175cdfca038c02654d061d6dcc6"},
-    {file = "requests-2.32.3.tar.gz", hash = "sha256:55365417734eb18255590a9ff9eb97e9e1da868d4ccd6402399eaf68af20a760"},
+    {file = "requests-2.31.0-py3-none-any.whl", hash = "sha256:58cd2187c01e70e6e26505bca751777aa9f2ee0b7f4300988b709f44e013003f"},
+    {file = "requests-2.31.0.tar.gz", hash = "sha256:942c5a758f98d790eaed1a29cb6eefc7ffb0d1cf7af05c3d2791656dbd6ad1e1"},
 ]
 
 [package.dependencies]
