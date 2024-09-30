@@ -4704,22 +4704,22 @@ cffi = {version = "*", markers = "implementation_name == \"pypy\""}
 
 [[package]]
 name = "qiskit"
-version = "1.1.1"
+version = "1.2.2"
 description = "An open-source SDK for working with quantum computers at the level of extended quantum circuits, operators, and primitives."
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "qiskit-1.1.1-cp38-abi3-macosx_10_9_universal2.whl", hash = "sha256:98f1cc5ad460ef8815eab7fa8405daaacc262a4fc18f042ebfc09690b5b6c717"},
-    {file = "qiskit-1.1.1-cp38-abi3-macosx_10_9_x86_64.whl", hash = "sha256:dcb1f719beb9b01c5cd73173708c3743723c447f5396c2bb87e727926bcdf685"},
-    {file = "qiskit-1.1.1-cp38-abi3-macosx_11_0_arm64.whl", hash = "sha256:540cb61230aca537b2b748e99001e7b7a9f49449f28f9514c3544395c54fbbe0"},
-    {file = "qiskit-1.1.1-cp38-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:c7c2b26aa70d20aa95dbb28772a1735718603b6cb8e2c6b460679c1e0faffde6"},
-    {file = "qiskit-1.1.1-cp38-abi3-manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:95177938035da0d88e68ab2cdc144953518fdfce2d657b1c89442b7580776b13"},
-    {file = "qiskit-1.1.1-cp38-abi3-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl", hash = "sha256:0d01aff14b0480de9232b358aebd4c48bb4d460fc776c90de224d38bd08455af"},
-    {file = "qiskit-1.1.1-cp38-abi3-manylinux_2_17_s390x.manylinux2014_s390x.whl", hash = "sha256:c88ee6afa941eeb34577668e60c78ee053612b66b8c9e6315b62c310054ec597"},
-    {file = "qiskit-1.1.1-cp38-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:aac52542651867f301a6cd1c6c55a02de494f915b4c9f5885dc7549058b6bc35"},
-    {file = "qiskit-1.1.1-cp38-abi3-win32.whl", hash = "sha256:e3ae6399174b7931a0c6b41f6650ab732436f41afbb5625563857047087ee4d3"},
-    {file = "qiskit-1.1.1-cp38-abi3-win_amd64.whl", hash = "sha256:88c98fbd3314f1961ebd10901df262251dbe12c512ed6152d2f578bac33e2d72"},
-    {file = "qiskit-1.1.1.tar.gz", hash = "sha256:5f1af6a1d94b92aa8c15007b626b76aeb5873a59ff53cb40d1f3662abd50c2cc"},
+    {file = "qiskit-1.2.2-cp38-abi3-macosx_10_9_universal2.whl", hash = "sha256:d62c834b3da9c033d5c705ba0f479e70fdf9c78d1d6f058bf350f54bd305cf57"},
+    {file = "qiskit-1.2.2-cp38-abi3-macosx_10_9_x86_64.whl", hash = "sha256:8ea12858fa3425809c939d3cedfef48fb2f2b5cfe47e2576a5d04ec35358ebcf"},
+    {file = "qiskit-1.2.2-cp38-abi3-macosx_11_0_arm64.whl", hash = "sha256:2942f4b47bbd251aafc1b006cdab823f1977d6219136901dd6084abb0205ed6c"},
+    {file = "qiskit-1.2.2-cp38-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:cd8e8071b3311ba6debfc31bb103469f863b12c0080db82bd49f9b6ae93e82d1"},
+    {file = "qiskit-1.2.2-cp38-abi3-manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:3944796a619c8c789e7c0ec9fad3c0ab2a0eb3990fee7da6da652ba83c7a5f8e"},
+    {file = "qiskit-1.2.2-cp38-abi3-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl", hash = "sha256:a4d5b544f82dc34e822c51ab762038c9ba47c76d3c9a510f78389859fd800c88"},
+    {file = "qiskit-1.2.2-cp38-abi3-manylinux_2_17_s390x.manylinux2014_s390x.whl", hash = "sha256:fd4c25135d4ebdff0ca084d52e20d1040c073c39632a073c7c9a3149871d73c0"},
+    {file = "qiskit-1.2.2-cp38-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:3f37e6acc465874f070c499b67cfccac9eac671c12cc8d304251fd8ddaadba1a"},
+    {file = "qiskit-1.2.2-cp38-abi3-win32.whl", hash = "sha256:a2317ef3bfbe49d71dd10077b3712001b8017453247bfe43ad0b6280f9a0fd6d"},
+    {file = "qiskit-1.2.2-cp38-abi3-win_amd64.whl", hash = "sha256:9e54c253713ae06e1aadb3399ff39ccc4fda0826741595514f7b489a957e4f33"},
+    {file = "qiskit-1.2.2.tar.gz", hash = "sha256:e16dd0f99de8caaec85a6620fccc9acf3ac2c9368f465e4d9e7ab445d3c7428a"},
 ]
 
 [package.dependencies]
@@ -4730,7 +4730,7 @@ Pillow = {version = ">=4.2.1", optional = true, markers = "extra == \"visualizat
 pydot = {version = "*", optional = true, markers = "extra == \"visualization\""}
 pylatexenc = {version = ">=1.4", optional = true, markers = "extra == \"visualization\""}
 python-dateutil = ">=2.8.0"
-rustworkx = ">=0.14.0"
+rustworkx = ">=0.15.0"
 scipy = ">=1.5"
 seaborn = {version = ">=0.9.0", optional = true, markers = "extra == \"visualization\""}
 stevedore = ">=3.0.0"
