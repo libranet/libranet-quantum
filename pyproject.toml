@@ -32,7 +32,7 @@ targets = ["src", "tests"]
 include = '\.py$'  # regex -> single-quotes
 line-length = 120
 profile = "black"
-target_version = ["py311"]
+target-version = ["py311"]
 
 
 [tool.coverage.html]
@@ -154,7 +154,6 @@ qunix-tools = ">=0.1.5.2"
 
 [tool.poetry.group.dev.dependencies]
 absolufy-imports = ">=0.3"
-bandit = ">=1.7"
 black = { version = ">=22.0", allow-prereleases = true }
 flake8 = ">=4.0"
 flake8-bugbear = ">=23.2"
@@ -205,6 +204,9 @@ gprof2dot = ">=2022.7"
 importtime-waterfall = ">=1.0"
 pyinstrument = ">=4.4"
 tuna = ">=0.5"
+
+[tool.poetry.group.security.dependencies]
+bandit = ">=1.7"
 
 [tool.poetry.group.testing.dependencies]
 coverage = { extras = ["toml"], version = ">=6.2" }
