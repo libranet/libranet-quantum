@@ -224,7 +224,7 @@ tox = ">=4.4"
 # xdoctest = { extras = ["colors"], version = ">=0.15" }
 
 [tool.poetry.group.webtesting.dependencies]
-httpie = ">=3.2.2"
+httpie = ">=3.2.3"
 locust = ">=2.11"
 
 
