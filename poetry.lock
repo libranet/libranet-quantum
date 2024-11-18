@@ -1913,18 +1913,18 @@ protobuf = ["grpcio-tools (>=1.68.0)"]
 
 [[package]]
 name = "grpcio-status"
-version = "1.67.1"
+version = "1.68.0"
 description = "Status proto mapping for gRPC"
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "grpcio_status-1.67.1-py3-none-any.whl", hash = "sha256:16e6c085950bdacac97c779e6a502ea671232385e6e37f258884d6883392c2bd"},
-    {file = "grpcio_status-1.67.1.tar.gz", hash = "sha256:2bf38395e028ceeecfd8866b081f61628114b384da7d51ae064ddc8d766a5d11"},
+    {file = "grpcio_status-1.68.0-py3-none-any.whl", hash = "sha256:0a71b15d989f02df803b4ba85c5bf1f43aeaa58ac021e5f9974b8cadc41f784d"},
+    {file = "grpcio_status-1.68.0.tar.gz", hash = "sha256:8369823de22ab6a2cddb3804669c149ae7a71819e127c2dca7c2322028d52bea"},
 ]
 
 [package.dependencies]
 googleapis-common-protos = ">=1.5.5"
-grpcio = ">=1.67.1"
+grpcio = ">=1.68.0"
 protobuf = ">=5.26.1,<6.0dev"
 
 [[package]]
