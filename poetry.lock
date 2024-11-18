@@ -4559,13 +4559,13 @@ files = [
 
 [[package]]
 name = "pyspnego"
-version = "0.11.1"
+version = "0.11.2"
 description = "Windows Negotiate Authentication Client and Server"
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "pyspnego-0.11.1-py3-none-any.whl", hash = "sha256:129a4294f2c4d681d5875240ef87accc6f1d921e8983737fb0b59642b397951e"},
-    {file = "pyspnego-0.11.1.tar.gz", hash = "sha256:e92ed8b0a62765b9d6abbb86a48cf871228ddb97678598dc01c9c39a626823f6"},
+    {file = "pyspnego-0.11.2-py3-none-any.whl", hash = "sha256:74abc1fb51e59360eb5c5c9086e5962174f1072c7a50cf6da0bda9a4bcfdfbd4"},
+    {file = "pyspnego-0.11.2.tar.gz", hash = "sha256:994388d308fb06e4498365ce78d222bf4f3570b6df4ec95738431f61510c971b"},
 ]
 
 [package.dependencies]
