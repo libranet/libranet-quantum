@@ -6068,26 +6068,26 @@ urllib3 = ">=1.26.0"
 
 [[package]]
 name = "typedunits"
-version = "0.0.1.dev20241114014153"
+version = "0.0.1.dev20241120184900"
 description = ""
 optional = false
 python-versions = ">=3.10.0"
 files = [
-    {file = "typedunits-0.0.1.dev20241114014153-cp310-cp310-macosx_10_9_x86_64.whl", hash = "sha256:27f61a6d2cd46f099170eb15d088df518fa2cbeca95c4a0b33cb82c5dd55d28d"},
-    {file = "typedunits-0.0.1.dev20241114014153-cp310-cp310-macosx_11_0_arm64.whl", hash = "sha256:af35625ad2a21a37de5fff2af845de15d95248a78a0765a3667ef79e19ca709a"},
-    {file = "typedunits-0.0.1.dev20241114014153-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:9b270508fab6419973af5a4558c32b25e3b73190ec6c7ded7decbb799c47a70b"},
-    {file = "typedunits-0.0.1.dev20241114014153-cp310-cp310-win32.whl", hash = "sha256:7f9297d5640dbb96382f153fba0a39675823cf9f5a31bf44e4ab4e48736367c2"},
-    {file = "typedunits-0.0.1.dev20241114014153-cp310-cp310-win_amd64.whl", hash = "sha256:c054651922b12ae36ba50b3b6515b905b4d946ce812f2010bb2e9a734b34db97"},
-    {file = "typedunits-0.0.1.dev20241114014153-cp311-cp311-macosx_10_9_x86_64.whl", hash = "sha256:e47bd039579518cb1693fc3a75f710eefcb0d497c2fa00ae217f396b10f19907"},
-    {file = "typedunits-0.0.1.dev20241114014153-cp311-cp311-macosx_11_0_arm64.whl", hash = "sha256:03749e98611f3a3b8f98540deb1455f52267cd56e22e7e41c576be835060ce99"},
-    {file = "typedunits-0.0.1.dev20241114014153-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:d4908d0fb697ef23ced1b5d8420ee1750452715481d2c0a400257a913d603d86"},
-    {file = "typedunits-0.0.1.dev20241114014153-cp311-cp311-win32.whl", hash = "sha256:8499c5757fd810560cb32a5fcd9ef59f19ce2cadeb71ac9b626f06d337b9b74c"},
-    {file = "typedunits-0.0.1.dev20241114014153-cp311-cp311-win_amd64.whl", hash = "sha256:1f99da94e1834b7f6b26fa9e8ac3f1022ecef5fa8e92dd4364adfb203de9778b"},
-    {file = "typedunits-0.0.1.dev20241114014153-cp312-cp312-macosx_10_13_x86_64.whl", hash = "sha256:d466d3221672030f2bca4876f64c3f600404e1433f94539a7ac6cbb4946ab58e"},
-    {file = "typedunits-0.0.1.dev20241114014153-cp312-cp312-macosx_11_0_arm64.whl", hash = "sha256:b44e10477b6bb2e0dce618f70d3ea975f15a7f4e5513224636ed3943141309f3"},
-    {file = "typedunits-0.0.1.dev20241114014153-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:3a23bed6dfb2c6b79bdbb433a65828f55d9a8a8be3067474596200e75c4ad722"},
-    {file = "typedunits-0.0.1.dev20241114014153-cp312-cp312-win32.whl", hash = "sha256:b225dd2d61be85fa9517579e896d66f75d6d4c6c356251725615e4de825d1ab3"},
-    {file = "typedunits-0.0.1.dev20241114014153-cp312-cp312-win_amd64.whl", hash = "sha256:1268a7049d61675f0fd533badb3f59e85cdc3d60221831c1f5f96b692e4ec821"},
+    {file = "typedunits-0.0.1.dev20241120184900-cp310-cp310-macosx_10_9_x86_64.whl", hash = "sha256:d943ee24bb84a085cd0f2cc2ff8e51b80cc0f75166c56fd766531fba187ad21f"},
+    {file = "typedunits-0.0.1.dev20241120184900-cp310-cp310-macosx_11_0_arm64.whl", hash = "sha256:b3d5927ffaa2b22d2c853a0e9dd2562ab0e202d51fe41a5daef5f44edad5eecd"},
+    {file = "typedunits-0.0.1.dev20241120184900-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:67bde050a3c40b954ec017361085e8f720db0833deee166cf79d10836b22edef"},
+    {file = "typedunits-0.0.1.dev20241120184900-cp310-cp310-win32.whl", hash = "sha256:07c353d9fe92429f29b098d0941963fbe1d46f155ac53dc1cf886de25c8172a3"},
+    {file = "typedunits-0.0.1.dev20241120184900-cp310-cp310-win_amd64.whl", hash = "sha256:5b8ace8a43793dc307448f5e08b0e0c83fa804496cf06be1c2a0bea55afc696c"},
+    {file = "typedunits-0.0.1.dev20241120184900-cp311-cp311-macosx_10_9_x86_64.whl", hash = "sha256:2bb31c687926496ffb6f6702fcf24719ec4157eba4d7cfc033ede2ad360ae1e2"},
+    {file = "typedunits-0.0.1.dev20241120184900-cp311-cp311-macosx_11_0_arm64.whl", hash = "sha256:7767df0b38fa568e7a929018146c89e0b8aadeeb929168134b8f3e0927b594a5"},
+    {file = "typedunits-0.0.1.dev20241120184900-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:2d46c925f12239263710b86171b5a0fa276bd3c3bf228174ae04006d5994c62f"},
+    {file = "typedunits-0.0.1.dev20241120184900-cp311-cp311-win32.whl", hash = "sha256:460f2737afc075753062418e926f56cf265167d7dcef2228fa1151a2e0fb9735"},
+    {file = "typedunits-0.0.1.dev20241120184900-cp311-cp311-win_amd64.whl", hash = "sha256:2eba004ee802adb26a5985121e7a4a826c118a4a2a4351873a800a4cf775afcf"},
+    {file = "typedunits-0.0.1.dev20241120184900-cp312-cp312-macosx_10_13_x86_64.whl", hash = "sha256:cf4fc7da686f0fa08d5541fb60be00f3b7ecdadfcb8cda749104049bb0d57f24"},
+    {file = "typedunits-0.0.1.dev20241120184900-cp312-cp312-macosx_11_0_arm64.whl", hash = "sha256:d96fcb9427502c8ce0000dbc7e62107ce110c8387ab3103eb27390e9834776e2"},
+    {file = "typedunits-0.0.1.dev20241120184900-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:4c26236af7c93873ffe26acee6b2f9a9b36947bf3d43d13e6856ccced120210f"},
+    {file = "typedunits-0.0.1.dev20241120184900-cp312-cp312-win32.whl", hash = "sha256:508cfa14a2c08c4a93f3db9f98c2bed7c7d5ea067cfcd6c1d4e9ce2a9a0d86e2"},
+    {file = "typedunits-0.0.1.dev20241120184900-cp312-cp312-win_amd64.whl", hash = "sha256:d439fb5ef63a1af2e091836e4088486ed174d2d695d7169fb98b0b56b3bf8225"},
 ]
 
 [package.dependencies]
