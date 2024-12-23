@@ -1701,16 +1701,16 @@ files = [
 google-auth = ">=2.14.1,<3.0.dev0"
 googleapis-common-protos = ">=1.56.2,<2.0.dev0"
 grpcio = [
-    {version = ">=1.49.1,<2.0dev", optional = true, markers = "python_version >= \"3.11\" and extra == \"grpc\""},
     {version = ">=1.33.2,<2.0dev", optional = true, markers = "python_version < \"3.11\" and extra == \"grpc\""},
+    {version = ">=1.49.1,<2.0dev", optional = true, markers = "python_version >= \"3.11\" and extra == \"grpc\""},
 ]
 grpcio-status = [
-    {version = ">=1.49.1,<2.0.dev0", optional = true, markers = "python_version >= \"3.11\" and extra == \"grpc\""},
     {version = ">=1.33.2,<2.0.dev0", optional = true, markers = "python_version < \"3.11\" and extra == \"grpc\""},
+    {version = ">=1.49.1,<2.0.dev0", optional = true, markers = "python_version >= \"3.11\" and extra == \"grpc\""},
 ]
 proto-plus = [
-    {version = ">=1.25.0,<2.0.0dev", markers = "python_version >= \"3.13\""},
     {version = ">=1.22.3,<2.0.0dev", markers = "python_version < \"3.13\""},
+    {version = ">=1.25.0,<2.0.0dev", markers = "python_version >= \"3.13\""},
 ]
 protobuf = ">=3.19.5,<3.20.0 || >3.20.0,<3.20.1 || >3.20.1,<4.21.0 || >4.21.0,<4.21.1 || >4.21.1,<4.21.2 || >4.21.2,<4.21.3 || >4.21.3,<4.21.4 || >4.21.4,<4.21.5 || >4.21.5,<6.0.0.dev0"
 requests = ">=2.18.0,<3.0.0.dev0"
@@ -2745,13 +2745,13 @@ testing = ["coverage", "pytest", "pytest-click", "pytest-cov"]
 
 [[package]]
 name = "locust"
-version = "2.32.4"
+version = "2.32.5"
 description = "Developer-friendly load testing framework"
 optional = false
 python-versions = ">=3.9"
 files = [
-    {file = "locust-2.32.4-py3-none-any.whl", hash = "sha256:7c5b8767c0d771b5167d5d6b82878622faead74f394eb9cafe8891d89eb36b97"},
-    {file = "locust-2.32.4.tar.gz", hash = "sha256:fd650cbc40842e721668a8d0f7f8224775432b40c63d0a378546b9a9f54b7559"},
+    {file = "locust-2.32.5-py3-none-any.whl", hash = "sha256:2f49509868ffc2e368be40921c6825f92147c84e997206760a85dab3058f5efb"},
+    {file = "locust-2.32.5.tar.gz", hash = "sha256:ea7bc1e8ce2520e8893c471b4b0a56a4f53b01b4b618adfe8d2c8ab2728b5821"},
 ]
 
 [package.dependencies]
@@ -2760,8 +2760,8 @@ flask = ">=2.0.0"
 Flask-Cors = ">=3.0.10"
 Flask-Login = ">=0.6.3"
 gevent = [
-    {version = ">=24.10.1", markers = "python_full_version > \"3.13.0\""},
     {version = ">=22.10.2", markers = "python_full_version <= \"3.12.0\""},
+    {version = ">=24.10.1", markers = "python_full_version > \"3.13.0\""},
 ]
 geventhttpclient = ">=2.3.1"
 msgpack = ">=1.0.0"
@@ -2769,8 +2769,8 @@ psutil = ">=5.9.1"
 pywin32 = {version = "*", markers = "sys_platform == \"win32\""}
 pyzmq = ">=25.0.0"
 requests = [
-    {version = ">=2.32.2", markers = "python_full_version > \"3.11.0\""},
     {version = ">=2.26.0", markers = "python_full_version <= \"3.11.0\""},
+    {version = ">=2.32.2", markers = "python_full_version > \"3.11.0\""},
 ]
 setuptools = ">=70.0.0"
 tomli = {version = ">=1.1.0", markers = "python_version < \"3.11\""}
@@ -3702,9 +3702,9 @@ files = [
 
 [package.dependencies]
 numpy = [
-    {version = ">=1.26.0", markers = "python_version >= \"3.12\""},
     {version = ">=1.22.4", markers = "python_version < \"3.11\""},
     {version = ">=1.23.2", markers = "python_version == \"3.11\""},
+    {version = ">=1.26.0", markers = "python_version >= \"3.12\""},
 ]
 python-dateutil = ">=2.8.2"
 pytz = ">=2020.1"
@@ -4186,8 +4186,8 @@ files = [
 annotated-types = ">=0.6.0"
 pydantic-core = "2.23.4"
 typing-extensions = [
-    {version = ">=4.12.2", markers = "python_version >= \"3.13\""},
     {version = ">=4.6.1", markers = "python_version < \"3.13\""},
+    {version = ">=4.12.2", markers = "python_version >= \"3.13\""},
 ]
 
 [package.extras]
@@ -4458,9 +4458,9 @@ files = [
 astroid = ">=3.3.5,<=3.4.0-dev0"
 colorama = {version = ">=0.4.5", markers = "sys_platform == \"win32\""}
 dill = [
-    {version = ">=0.3.7", markers = "python_version >= \"3.12\""},
     {version = ">=0.2", markers = "python_version < \"3.11\""},
     {version = ">=0.3.6", markers = "python_version >= \"3.11\" and python_version < \"3.12\""},
+    {version = ">=0.3.7", markers = "python_version >= \"3.12\""},
 ]
 isort = ">=4.2.5,<5.13.0 || >5.13.0,<6"
 mccabe = ">=0.6,<0.8"
@@ -5627,8 +5627,8 @@ files = [
 
 [package.dependencies]
 astroid = [
-    {version = ">=3.0.0a1", markers = "python_version >= \"3.12\""},
     {version = ">=2.7", markers = "python_version < \"3.12\""},
+    {version = ">=3.0.0a1", markers = "python_version >= \"3.12\""},
 ]
 Jinja2 = "*"
 PyYAML = "*"
