@@ -6009,13 +6009,13 @@ dev = ["hypothesis (>=6.70.0)", "pytest (>=7.1.0)"]
 
 [[package]]
 name = "taskgroup"
-version = "0.2.1"
+version = "0.2.2"
 description = "backport of asyncio.TaskGroup, asyncio.Runner and asyncio.timeout"
 optional = false
 python-versions = "*"
 files = [
-    {file = "taskgroup-0.2.1-py2.py3-none-any.whl", hash = "sha256:bff020b6e63408d1bcf952486cce05ed4c4e0747743c4762eb10b35726c89ab3"},
-    {file = "taskgroup-0.2.1.tar.gz", hash = "sha256:11fa9c2db1037188ac0b60c70fa979243d00b1fee1a6e61e3171c21c1af75f78"},
+    {file = "taskgroup-0.2.2-py2.py3-none-any.whl", hash = "sha256:e2c53121609f4ae97303e9ea1524304b4de6faf9eb2c9280c7f87976479a52fb"},
+    {file = "taskgroup-0.2.2.tar.gz", hash = "sha256:078483ac3e78f2e3f973e2edbf6941374fbea81b9c5d0a96f51d297717f4752d"},
 ]
 
 [package.dependencies]
