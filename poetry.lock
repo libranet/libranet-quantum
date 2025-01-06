@@ -3675,8 +3675,8 @@ files = [
 [package.dependencies]
 numpy = [
     {version = ">=1.22.4", markers = "python_version < \"3.11\""},
-    {version = ">=1.26.0", markers = "python_version >= \"3.12\""},
     {version = ">=1.23.2", markers = "python_version == \"3.11\""},
+    {version = ">=1.26.0", markers = "python_version >= \"3.12\""},
 ]
 python-dateutil = ">=2.8.2"
 pytz = ">=2020.1"
@@ -4432,8 +4432,8 @@ astroid = ">=3.3.8,<=3.4.0-dev0"
 colorama = {version = ">=0.4.5", markers = "sys_platform == \"win32\""}
 dill = [
     {version = ">=0.2", markers = "python_version < \"3.11\""},
-    {version = ">=0.3.7", markers = "python_version >= \"3.12\""},
     {version = ">=0.3.6", markers = "python_version >= \"3.11\" and python_version < \"3.12\""},
+    {version = ">=0.3.7", markers = "python_version >= \"3.12\""},
 ]
 isort = ">=4.2.5,<5.13.0 || >5.13.0,<6"
 mccabe = ">=0.6,<0.8"
@@ -6009,13 +6009,13 @@ dev = ["hypothesis (>=6.70.0)", "pytest (>=7.1.0)"]
 
 [[package]]
 name = "taskgroup"
-version = "0.2.1"
+version = "0.2.2"
 description = "backport of asyncio.TaskGroup, asyncio.Runner and asyncio.timeout"
 optional = false
 python-versions = "*"
 files = [
-    {file = "taskgroup-0.2.1-py2.py3-none-any.whl", hash = "sha256:bff020b6e63408d1bcf952486cce05ed4c4e0747743c4762eb10b35726c89ab3"},
-    {file = "taskgroup-0.2.1.tar.gz", hash = "sha256:11fa9c2db1037188ac0b60c70fa979243d00b1fee1a6e61e3171c21c1af75f78"},
+    {file = "taskgroup-0.2.2-py2.py3-none-any.whl", hash = "sha256:e2c53121609f4ae97303e9ea1524304b4de6faf9eb2c9280c7f87976479a52fb"},
+    {file = "taskgroup-0.2.2.tar.gz", hash = "sha256:078483ac3e78f2e3f973e2edbf6941374fbea81b9c5d0a96f51d297717f4752d"},
 ]
 
 [package.dependencies]
