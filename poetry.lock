@@ -3675,8 +3675,8 @@ files = [
 [package.dependencies]
 numpy = [
     {version = ">=1.22.4", markers = "python_version < \"3.11\""},
-    {version = ">=1.26.0", markers = "python_version >= \"3.12\""},
     {version = ">=1.23.2", markers = "python_version == \"3.11\""},
+    {version = ">=1.26.0", markers = "python_version >= \"3.12\""},
 ]
 python-dateutil = ">=2.8.2"
 pytz = ">=2020.1"
@@ -4432,8 +4432,8 @@ astroid = ">=3.3.8,<=3.4.0-dev0"
 colorama = {version = ">=0.4.5", markers = "sys_platform == \"win32\""}
 dill = [
     {version = ">=0.2", markers = "python_version < \"3.11\""},
-    {version = ">=0.3.7", markers = "python_version >= \"3.12\""},
     {version = ">=0.3.6", markers = "python_version >= \"3.11\" and python_version < \"3.12\""},
+    {version = ">=0.3.7", markers = "python_version >= \"3.12\""},
 ]
 isort = ">=4.2.5,<5.13.0 || >5.13.0,<6"
 mccabe = ">=0.6,<0.8"
@@ -4447,13 +4447,13 @@ testutils = ["gitpython (>3)"]
 
 [[package]]
 name = "pyparsing"
-version = "3.2.0"
+version = "3.2.1"
 description = "pyparsing module - Classes and methods to define and execute parsing grammars"
 optional = false
 python-versions = ">=3.9"
 files = [
-    {file = "pyparsing-3.2.0-py3-none-any.whl", hash = "sha256:93d9577b88da0bbea8cc8334ee8b918ed014968fd2ec383e868fb8afb1ccef84"},
-    {file = "pyparsing-3.2.0.tar.gz", hash = "sha256:cbf74e27246d595d9a74b186b810f6fbb86726dbf3b9532efb343f6d7294fe9c"},
+    {file = "pyparsing-3.2.1-py3-none-any.whl", hash = "sha256:506ff4f4386c4cec0590ec19e6302d3aedb992fdc02c761e90416f158dacf8e1"},
+    {file = "pyparsing-3.2.1.tar.gz", hash = "sha256:61980854fd66de3a90028d679a954d5f2623e83144b5afe5ee86f43d762e5f0a"},
 ]
 
 [package.extras]
