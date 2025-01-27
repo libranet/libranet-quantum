@@ -1256,18 +1256,18 @@ tests = ["asttokens (>=2.1.0)", "coverage", "coverage-enable-subprocess", "ipyth
 
 [[package]]
 name = "filelock"
-version = "3.16.1"
+version = "3.17.0"
 description = "A platform independent file lock."
 optional = false
-python-versions = ">=3.8"
+python-versions = ">=3.9"
 files = [
-    {file = "filelock-3.16.1-py3-none-any.whl", hash = "sha256:2082e5703d51fbf98ea75855d9d5527e33d8ff23099bec374a134febee6946b0"},
-    {file = "filelock-3.16.1.tar.gz", hash = "sha256:c249fbfcd5db47e5e2d6d62198e565475ee65e4831e2561c8e313fa7eb961435"},
+    {file = "filelock-3.17.0-py3-none-any.whl", hash = "sha256:533dc2f7ba78dc2f0f531fc6c4940addf7b70a481e269a5a3b93be94ffbe8338"},
+    {file = "filelock-3.17.0.tar.gz", hash = "sha256:ee4e77401ef576ebb38cd7f13b9b28893194acc20a8e68e18730ba9c0e54660e"},
 ]
 
 [package.extras]
-docs = ["furo (>=2024.8.6)", "sphinx (>=8.0.2)", "sphinx-autodoc-typehints (>=2.4.1)"]
-testing = ["covdefaults (>=2.3)", "coverage (>=7.6.1)", "diff-cover (>=9.2)", "pytest (>=8.3.3)", "pytest-asyncio (>=0.24)", "pytest-cov (>=5)", "pytest-mock (>=3.14)", "pytest-timeout (>=2.3.1)", "virtualenv (>=20.26.4)"]
+docs = ["furo (>=2024.8.6)", "sphinx (>=8.1.3)", "sphinx-autodoc-typehints (>=3)"]
+testing = ["covdefaults (>=2.3)", "coverage (>=7.6.10)", "diff-cover (>=9.2.1)", "pytest (>=8.3.4)", "pytest-asyncio (>=0.25.2)", "pytest-cov (>=6)", "pytest-mock (>=3.14)", "pytest-timeout (>=2.3.1)", "virtualenv (>=20.28.1)"]
 typing = ["typing-extensions (>=4.12.2)"]
 
 [[package]]
@@ -4926,7 +4926,10 @@ python-versions = ">=3.9"
 files = [
     {file = "qiskit-1.3.2-cp39-abi3-macosx_10_12_x86_64.whl", hash = "sha256:3fe16377787e31c67b87b2baa9fe3239ffab46e1697ed7dfc4687f89f283453b"},
     {file = "qiskit-1.3.2-cp39-abi3-macosx_11_0_arm64.whl", hash = "sha256:fc7be685e0f144825201da4c818e370977ab1be07049587899b209beca48a39e"},
+    {file = "qiskit-1.3.2-cp39-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:2f5a91c0f3f90cd1716aa99357965e4011f6f9fa37636c706a8829f7f408384b"},
     {file = "qiskit-1.3.2-cp39-abi3-manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:65d5af561b6e0e98b099fe4b7bf099dcd1f09322fa1d47299ba2b2febc873ec7"},
+    {file = "qiskit-1.3.2-cp39-abi3-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl", hash = "sha256:a24090a779bf8153a99d3d8d56fe161ccfd57ef96ab55d4320b3f376320ad1ce"},
+    {file = "qiskit-1.3.2-cp39-abi3-manylinux_2_17_s390x.manylinux2014_s390x.whl", hash = "sha256:253fa4d8b27c9dd1462fe67fec7428c2a3784216aa06babbb1a47547fa2afe8f"},
     {file = "qiskit-1.3.2-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:309f6db004ea8044df9ac9359c31dcce0cc12afb6ece6eb035ca86b9bf87a21c"},
     {file = "qiskit-1.3.2-cp39-abi3-win32.whl", hash = "sha256:113a6962b3cd79a0aeeee92072a3e808291e776d8ca7ab25dffaea2e0c288b8d"},
     {file = "qiskit-1.3.2-cp39-abi3-win_amd64.whl", hash = "sha256:8ec122c81f832c1a9202dae6485d402d1444845be2c53809f10d82cb1423e735"},
@@ -5456,31 +5459,29 @@ mpl = ["matplotlib (>=3.0)"]
 
 [[package]]
 name = "safety"
-version = "3.2.14"
+version = "3.2.3"
 description = "Checks installed dependencies for known vulnerabilities and licenses."
 optional = false
-python-versions = ">=3.8"
+python-versions = ">=3.7"
 files = [
-    {file = "safety-3.2.14-py3-none-any.whl", hash = "sha256:23ceeb06038ff65607c7f1311bffa3e92b029148b367b360ad8287d9f3395194"},
-    {file = "safety-3.2.14.tar.gz", hash = "sha256:7a45d88b1903c5b7c370eaeb6ca131a52f147e0b8a0b302265f82824ef92adc7"},
+    {file = "safety-3.2.3-py3-none-any.whl", hash = "sha256:cda1e91749f610337a18b7f21f78267c127e44ebbbbcbbd419c83284279a5024"},
+    {file = "safety-3.2.3.tar.gz", hash = "sha256:414154934f1727daf8a6473493944fecb380540c3f00875dc1ae377382f7d83f"},
 ]
 
 [package.dependencies]
 Authlib = ">=1.2.0"
 Click = ">=8.0.2"
-dparse = ">=0.6.4"
-filelock = ">=3.16.1,<3.17.0"
+dparse = ">=0.6.4b0"
 jinja2 = ">=3.1.0"
 marshmallow = ">=3.15.0"
 packaging = ">=21.0"
-psutil = ">=6.1.0,<6.2.0"
-pydantic = ">=2.6.0,<2.10.0"
+pydantic = ">=1.10.12"
 requests = "*"
 rich = "*"
 "ruamel.yaml" = ">=0.17.21"
-safety_schemas = "0.0.10"
+safety-schemas = ">=0.0.2"
 setuptools = ">=65.5.1"
-typer = ">=0.12.1"
+typer = "*"
 typing-extensions = ">=4.7.1"
 urllib3 = ">=1.26.5"
 
