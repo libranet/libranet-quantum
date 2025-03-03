@@ -3502,16 +3502,17 @@ uv = ["uv (>=0.1.6)"]
 
 [[package]]
 name = "nox-poetry"
-version = "1.1.0"
+version = "1.2.0"
 description = "nox-poetry"
 optional = false
-python-versions = ">=3.8"
+python-versions = ">=3.9"
 files = [
-    {file = "nox_poetry-1.1.0-py3-none-any.whl", hash = "sha256:30510b183f92f63f6b8d3d9b0d371b8d5ac57e7934dcf4a7042474bb91691756"},
-    {file = "nox_poetry-1.1.0.tar.gz", hash = "sha256:b19c597ec20cfb071eaa853aee2e28cedf8d88799d68b482e7b6c915948a2817"},
+    {file = "nox_poetry-1.2.0-py3-none-any.whl", hash = "sha256:266eea7a0ab3cad7f4121ecc05b76945036db3b67e6e347557f05010a18e2682"},
+    {file = "nox_poetry-1.2.0.tar.gz", hash = "sha256:2531a404e3a21eb73fc1a587a548506a8e2c4c1e6e7ef0c1d0d8d6453b7e5d26"},
 ]
 
 [package.dependencies]
+build = ">=1.2"
 nox = ">=2020.8.22"
 packaging = ">=20.9"
 tomlkit = ">=0.7"
