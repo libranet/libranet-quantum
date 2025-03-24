@@ -74,14 +74,14 @@ files = [
 
 [[package]]
 name = "argcomplete"
-version = "3.6.0"
+version = "3.6.1"
 description = "Bash tab completion for argparse"
 optional = false
 python-versions = ">=3.8"
-groups = ["testing"]
+groups = ["dev", "testing"]
 files = [
-    {file = "argcomplete-3.6.0-py3-none-any.whl", hash = "sha256:4e3e4e10beb20e06444dbac0ac8dda650cb6349caeefe980208d3c548708bedd"},
-    {file = "argcomplete-3.6.0.tar.gz", hash = "sha256:2e4e42ec0ba2fff54b0d244d0b1623e86057673e57bafe72dda59c64bd5dee8b"},
+    {file = "argcomplete-3.6.1-py3-none-any.whl", hash = "sha256:cef54d7f752560570291214f0f1c48c3b8ef09aca63d65de7747612666725dbc"},
+    {file = "argcomplete-3.6.1.tar.gz", hash = "sha256:927531c2fbaa004979f18c2316f6ffadcfc5cc2de15ae2624dfe65deaf60e14f"},
 ]
 
 [package.extras]
@@ -3357,7 +3357,7 @@ version = "6.2.0"
 description = "multidict implementation"
 optional = false
 python-versions = ">=3.9"
-groups = ["dev", "webtesting"]
+groups = ["webtesting"]
 files = [
     {file = "multidict-6.2.0-cp310-cp310-macosx_10_9_universal2.whl", hash = "sha256:b9f6392d98c0bd70676ae41474e2eecf4c7150cb419237a41f8f96043fcb81d1"},
     {file = "multidict-6.2.0-cp310-cp310-macosx_10_9_x86_64.whl", hash = "sha256:3501621d5e86f1a88521ea65d5cad0a0834c77b26f193747615b7c911e5422d2"},
@@ -6539,12 +6539,12 @@ version = "4.12.2"
 description = "Backported and Experimental Type Hints for Python 3.8+"
 optional = false
 python-versions = ">=3.8"
-groups = ["main", "deploy", "dev", "dist", "docs", "ipython", "lint", "security", "testing", "typing", "webtesting"]
+groups = ["main", "deploy", "dist", "docs", "ipython", "lint", "security", "testing", "typing", "webtesting"]
 files = [
     {file = "typing_extensions-4.12.2-py3-none-any.whl", hash = "sha256:04e5ca0351e0f3f85c6853954072df659d0d13fac324d0072316b67d7794700d"},
     {file = "typing_extensions-4.12.2.tar.gz", hash = "sha256:1a7ead55c7e559dd4dee8856e3a88b41225abfe1ce8df57b7c13915fe121ffb8"},
 ]
-markers = {deploy = "python_version <= \"3.12\"", dev = "python_version < \"3.11\"", dist = "python_version < \"3.11\"", docs = "python_version < \"3.11\"", ipython = "python_version <= \"3.11\"", lint = "python_version < \"3.11\"", testing = "python_version < \"3.11\"", webtesting = "python_version < \"3.11\""}
+markers = {deploy = "python_version <= \"3.12\"", dist = "python_version < \"3.11\"", docs = "python_version < \"3.11\"", ipython = "python_version <= \"3.11\"", lint = "python_version < \"3.11\"", testing = "python_version < \"3.11\"", webtesting = "python_version < \"3.11\""}
 
 [[package]]
 name = "tzdata"
