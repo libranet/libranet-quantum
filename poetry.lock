@@ -2886,14 +2886,14 @@ pyyaml = ">=6.0"
 
 [[package]]
 name = "locust"
-version = "2.33.0"
+version = "2.34.0"
 description = "Developer-friendly load testing framework"
 optional = false
 python-versions = ">=3.9"
 groups = ["webtesting"]
 files = [
-    {file = "locust-2.33.0-py3-none-any.whl", hash = "sha256:77fcc5cc35cceee5e12d99f5bb23bc441d145bdef6967c2e93d6e4d93451553e"},
-    {file = "locust-2.33.0.tar.gz", hash = "sha256:ba291b7ab2349cc2db540adb8888bc93feb89ea4e4e10d80b935e5065091e8e9"},
+    {file = "locust-2.34.0-py3-none-any.whl", hash = "sha256:9e9af1bab52ded67a9f0fac2ac039be18084f7e7473e3f95d04781391db854b8"},
+    {file = "locust-2.34.0.tar.gz", hash = "sha256:8761a60b1ee7af0606fb0d5ce4cbee7c8c1d2dcc1cb17215c8c994799c5f1ac6"},
 ]
 
 [package.dependencies]
