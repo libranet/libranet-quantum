@@ -4167,14 +4167,14 @@ xmp = ["defusedxml"]
 
 [[package]]
 name = "pip"
-version = "25.2"
+version = "26.1.1"
 description = "The PyPA recommended tool for installing Python packages."
 optional = false
-python-versions = ">=3.9"
-groups = ["webtesting"]
+python-versions = ">=3.10"
+groups = ["dev", "webtesting"]
 files = [
-    {file = "pip-25.2-py3-none-any.whl", hash = "sha256:6d67a2b4e7f14d8b31b8b52648866fa717f45a1eb70e83002f4331d07e953717"},
-    {file = "pip-25.2.tar.gz", hash = "sha256:578283f006390f85bb6282dffb876454593d637f5d1be494b5202ce4877e71f2"},
+    {file = "pip-26.1.1-py3-none-any.whl", hash = "sha256:99cb1c2899893b075ff56e4ed0af55669a955b49ad7fb8d8603ecdaf4ed653fb"},
+    {file = "pip-26.1.1.tar.gz", hash = "sha256:d36762751d156a4ee895de8af39aa0abeeeb577f93a2eca6ab62467bbf0f8a78"},
 ]
 
 [[package]]
